@@ -1,0 +1,842 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "1343665349855520",
+      "name": "Wrangler Men's Regular Fit Comfort Flex Waist Jean",
+      "description": "Wrangler Authentics Men's Regular Fit Comfort Flex Jean. This versatile jean is constructed with durable materials built for long-lasting comfort and added range of movement. Made with a regular fit, this jean sits at the natural waist and features a regular seat and thigh.",
+      "price": 49.99,
+      "category": 1,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81HIcavdH6L._AC_UL1500_.jpg",
+      "image": "mensjeans1.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "1478285904264670",
+      "name": "Wrangler Authentics Men's Relaxed Fit Boot Cut Jean",
+      "description": "Wrangler Authentics Men's Relaxed Fit Boot Cut Jean. This denim boot cut jean is constructed with durable 100% cotton built for long-lasting wear and all-day comfort. Designed with a relaxed boot cut fit through the leg, this comfortable jean sits at the natural waist and features a relaxed seat and thigh.",
+      "price": 44.99,
+      "category": 1,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81vKjD3xmKL._AC_UY741_.jpg",
+      "image": "mensjeans2.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "1774827834350560",
+      "name": "Levi's Men's 501 Original Fit Jeans",
+      "description": "The original blue jean since 1873. The original straight fit jean. All-American style. A blank canvas for self-expression. Extended sizes for Big & Tall fit.",
+      "price": 39.99,
+      "category": 1,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81xYWoX-lVL._AC_UL1500_.jpg",
+      "image": "mensjeans3.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "7658981484259750",
+      "name": "Signature by Levi Strauss & Co. Gold Label Men's Relaxed Fit Jeans",
+      "description": "Signature by Levi Strauss & Co.™ Men's Relaxed Fit are quality, modern jeans built strong enough to last",
+      "price": 40.00,
+      "category": 1,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91ku11fwqDL._AC_UL1500_.jpg",
+      "image": "mensjeans4.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "9390946589521760",
+      "name": "Lucky Brand Men's 361 Vintage Straight Jean",
+      "description": "Designed for every guy, the 361 has a comfortable mid-rise, relaxed seat and classic straight leg.",
+      "price": 45.00,
+      "category": 1,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91uHo1n2HaL._AC_UL1500_.jpg",
+      "image": "mensjeans5.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "3523376134158070",
+      "name": "Legendary Whitetails Men's Buck Camp Flannel Shirt",
+      "description": "Our original single pocket flannel - The Buck Camp Flannel Shirt is the perfect weight to wear alone or layered over a t-shirt or under a shirt jacket.",
+      "price": 24.99,
+      "category": 2,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81hggFz2DvL._AC_UL1500_.jpg",
+      "image": "mensshirt1.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "4879765888664620",
+      "name": "Hanes Men's Long Sleeve Beefy Henley Shirt",
+      "description": "Tough enough to go extra innings, this long-sleeve raglan henley tee is as durable as it is soft.",
+      "price": 14.99,
+      "category": 2,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91QvbQrZ4eL._AC_UL1500_.jpg",
+      "image": "mensshirt2.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "1191030790047920",
+      "name": "Gildan Men's Crew T-Shirt Multipack",
+      "description": "Gildan is one of the world's largest vertically integrated manufacturers of apparel and socks. Gildan uses cotton grown in the USA, which represents the best combination of quality and value for Gildan cotton and cotton blended products.",
+      "price": 24.99,
+      "category": 2,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/710o0VupScL._AC_UL1500_.jpg",
+      "image": "mensshirt3.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "7789401583662250",
+      "name": "Wrangler Authentics Men's Long Sleeve Heavy Weight Fleece Shirt",
+      "description": "This super warm fleece is perfect for any outdoor occasion as it keeps you warm and in style. This long sleeve fleece shirt is built for comfort as it features two sided brushed fleece fabric with a relaxed fit.",
+      "price": 14.99,
+      "category": 2,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/912zG8FYKbL._AC_UL1500_.jpg",
+      "image": "mensshirt4.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "7566874244130810",
+      "name": "Polo Ralph Lauren Men's Slim Fit w/Wicking 3-Pack Crews",
+      "description": "Polo Ralph Lauren size chart A quality Polo Ralph Lauren® staple for your wardrobe essentials. Slim fit tee crafted from a moisture-wicking cotton fabric for all-day comfort.",
+      "price": 24.99,
+      "category": 2,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71TKvP4nyGL._AC_UX679_.jpg",
+      "image": "mensshirt5.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "5557810072775170",
+      "name": "HULISLEM S1 Sport Polarized Sunglasses",
+      "description": "Each of the lenses are cut from one single toric lens with the super HD fuction .This means that you get amazing depth perception,color contrast as well as clarity.Astylish carrying case Comes with a stylish carrying case,cleaning cloth,and polarization test card.",
+      "price": 14.99,
+      "category": 3,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61C9TISRAkL._AC_UL1500_.jpg",
+      "image": "mensacc1.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "1875242755413130",
+      "name": "Timberland Men's Leather RFID Blocking Passcase Security Wallet",
+      "description": "A functional compact wallet with lots of storage, 6 credit card pockets, 2 slip pockets, 2 cash bill pocket, a removable flip pocket and RFID Protection.",
+      "price": 9.99,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81VcAxz05qL._AC_UL1500_.jpg",
+      "image": "mensacc2.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "1951064844741420",
+      "name": "Rugged Baseball Cap",
+      "description": "A classic canvas cap with a sweat and odor-fighting sweatband for day-to-day comfort. Canvas with 100 percent polyester mesh back • Carhartt force sweatband fights odors and fast dry technology wicks away sweat for comfort • structured, medium-profile cap with pre curved visor • adjustable fit with plastic closure • Carhartt label sewn on side • imported",
+      "price": 9.99,
+      "category": 3,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91tgXrB27KL._AC_UL1500_.jpg",
+      "image": "mensacc3.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "5205203317374330",
+      "name": "Casio Men's G-Shock Quartz Watch",
+      "description": "A slapshot by a professional hockey player was all it took to send this G-Shock into history and into a goalie’s mitt, literally. If it can handle a slapshot, it can handle your life. We like to refer to it as the quintessential G-Shock.",
+      "price": 23.95,
+      "category": 3,
+      "rating": 2,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71Fxmk2GAYL._AC_UL1500_.jpg",
+      "image": "mensacc4.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "1907918789552560",
+      "name": "Dickies Men's Casual Leather Belt",
+      "description": "The dickie's brand name is synonymous with work wear, being tough, and built to last. This belt lives up to the dickie's name and adds a bit of flair with the extra stitching.",
+      "price": 7.99,
+      "category": 3,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71Gfs4yKvBL._AC_UL1500_.jpg",
+      "image": "mensacc5.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "3158776456884360",
+      "name": "Women High Waist Skinny Stretch Ripped Jeans Destroyed Denim Pants",
+      "description": "A casual Womens young contemporary fit that goes with anything. Fitted through the top of body & thigh. You will love Our Blueage Skinny Ripped and Destroyed Jean every inch, every angle, every curve",
+      "price": 29.99,
+      "category": 4,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61OVnTWUZGL._AC_UL1500_.jpg",
+      "image": "womensjeans1.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "8626604600959980",
+      "name": "Democracy Women's Ab Solution Straight Leg Jean",
+      "description": "A universally great fitting jean with slimming style lines & feminine details. On the inside, there is a soft, no-gap elastic waistband that conforms to your body shape.",
+      "price": 34.99,
+      "category": 4,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81UH3SnABIL._AC_UX569_.jpg",
+      "image": "womensjeans2.jpg"
+    }
+  },
+    {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "3004497112562720",
+      "name": "Lee Women's Secretly Shapes Regular Fit Straight Leg Jean",
+      "description": "You have found the perfect mid-rise jean! Our regular fit mid-rise jean sits below the natural waist and has a slimming fit through the seat and thigh. ",
+      "price": 19.99,
+      "category": 4,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81Gp5SXQpVL._AC_UX569_.jpg",
+      "image": "womensjeans3.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "1474323723774750",
+      "name": "Riders by Lee Indigo Women's Midrise Bootcut Jean",
+      "description": "You have found the perfect mid-rise jean! Our regular fit mid-rise jean sits below the natural waist and has a slimming fit through the seat and thigh.",
+      "price": 17.99,
+      "category": 4,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81KlD-R3eML._AC_UL1500_.jpg",
+      "image": "womensjeans4.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "4795492489374670",
+      "name": "Lee Women's Flex Motion Regular Fit Straight Leg Jean",
+      "description": "Just like our founder,  H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely.",
+      "price": 29.99,
+      "category": 4,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81LbKIJg9GL._AC_UL1500_.jpg",
+      "image": "womensjeans5.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "5586265214970420",
+      "name": "Hanes Women's Nano T-Shirt",
+      "description": "This Hanes nano-t t-shirt for women is so light and soft you'll fall in love with it. Ultra-light 100 percent ring-spun cotton jersey feels great on your skin and drapes beautifully",
+      "price": 4.99,
+      "category": 5,
+      "rating": 2,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/919Hht2azRL._AC_UL1500_.jpg",
+      "image": "womensshirt1.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "7995614720492770",
+      "name": "Astylish Women V Neck Striped Roll up Sleeve Button Down Blouses Tops",
+      "description": "Suit for daily wear, date, vacation, work, casual,office work",
+      "price": 19.99,
+      "category": 5,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61bCK51yknL._AC_UY741_.jpg",
+      "image": "womensshirt2.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "3505106257113670",
+      "name": "MANGOPOP Womens Square Neck Short Sleeve/Long Sleeve Tops Bodysuit Jumpsuit",
+      "description": "Bodysuits featuring a square neck, short sleeve / long sleeve",
+      "price": 14.99,
+      "category": 5,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51FIL37AVrL._AC_UL1000_.jpg",
+      "image": "womensshirt3.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "2151576302739930",
+      "name": "Astylish Women Open Front Long Sleeve Chunky Knit Cardigan Sweaters Loose Outwear Coat",
+      "description": "Casual Open Front Knit Sweater Cardigans for Women Juniors，Stay cozy and super warm in this slouchy cardigan on chilly winter",
+      "price": 29.99,
+      "category": 5,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71JRvsuTZtL._AC_UL1500_.jpg",
+      "image": "womensshirt4.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "7052906179614490",
+      "name": "Angashion Women's Sweaters Casual Leopard Printed Patchwork Long Sleeves Knitted Pullover Cropped Sweater Tops",
+      "description": "This women's cropped sweater is perfect for Spring, Fall, Winter, Party, Date, School, Daily Wearing, Work, At Home",
+      "price": 24.99,
+      "category": 5,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/7161jzgTcEL._AC_UL1500_.jpg",
+      "image": "womensshirt5.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "8970820985693680",
+      "name": "Fossil Women's Riley Stainless Steel Crystal-Accented Multifunction Quartz Watch",
+      "description": "Fossil is inspired by American creativity and ingenuity. Bringing new life into the watch and leathers industry by making quality, fashionable accessories that are both fun and accessible.",
+      "price": 69.99,
+      "category": 6,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71G9OR80WtL._AC_UL1500_.jpg",
+      "image": "womensacc1.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "5159152866309530",
+      "name": "5 Pairs Stud Earrings Set",
+      "description": "Package includes 5 pairs of stud earrings in 5 sizes, 3mm/4mm/5mm/6mm/8mm. Gauge Size: 20G =0.8mm, pin size: 10 mm. The butterfly buckle add extra protection for you.",
+      "price": 5.99,
+      "category": 6,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61Bo7RLeiTL._AC_UL1000_.jpg",
+      "image": "womensacc2.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "2099520188281920",
+      "name": "Ray-Ban Rb3025 Classic Aviator Sunglasses",
+      "description": "Protect your eyes with style made famous by aviators since 1937",
+      "price": 129.99,
+      "category": 6,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/514VxVjuT9L._AC_UL1500_.jpg",
+      "image": "womensacc3.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "9719448719506250",
+      "name": "Thick Cable Knit Faux Fuzzy Fur Pom Fleece Lined Skull Cap Cuff Beanie",
+      "description": "No description required, just look, super cute",
+      "price": 17.99,
+      "category": 6,
+      "rating": 2,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71c98PkG7nL._AC_UX569_.jpg",
+      "image": "womensacc4.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "4176292484208840",
+      "name": "Veronz Super Soft Classic Cashmere Feel Winter Scarf",
+      "description": "This Veronz men's scarf and womens scarf is of unsurpassed quality. The highest grade super soft cashmere - feel scarf is patterned in an updated classic fashion, adding color and style to your cold weather attire.",
+      "price": 9.99,
+      "category": 6,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91VtF7KfIfL._AC_UL1500_.jpg",
+      "image": "womensacc5.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "7198346516428200",
+      "name": "Whistling Tea Kettle Stainless Steel Teapot, Teakettle for Stovetop Induction Stove Top, Fast Boiling Heat Water Tea Pot 2.2 Quart(Black)",
+      "description": "This LUXGRACE 2.2 quarts whistling stainless steel stovetop kettle is crafted of high quality stainless steel. Whistles when boiling, can be used on gas, electric, induction, halogen, and radiant stovetops.",
+      "price": 29.99,
+      "category": 7,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71TxeeX673L._AC_SL1500_.jpg",
+      "image": "kitchen1.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "6032258575601710",
+      "name": "Keurig K-Elite Coffee Maker",
+      "description": "The Keurig K-Elite brewer blends a premium finish and programmable features to deliver both modern design and the ultimate in beverage customization.",
+      "price": 99.99,
+      "category": 7,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81VXacdKaVL._AC_SL1500_.jpg",
+      "image": "kitchen2.jpg"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "2639594184802830",
+      "name": "Smooth Touch Electric Automatic Can Opener, Black and Chrome",
+      "description": "Open cans smoothly and easily with the Hamilton Beach Smooth Touch Can Opener. An easy push down lever makes quick work of removing both pop-top and regular cans.",
+      "price": 24.99,
+      "category": 7,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81XnuXLdAHL._AC_SX679_.jpg",
+      "image": "kitchen3.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "2410730627200060",
+      "name": "Heart Shape Wine Bottle Stopper Set Wine Accessories Gift Set",
+      "description": "These wine bottle stoppers fit almost all standard bottles and have a snug fit to prevent air from reaching your wine and keep it fresh long after you open the bottle.",
+      "price": 7.99,
+      "category": 7,
+      "rating": 2,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61XxhyanTuL._AC_SL1062_.jpg",
+      "image": "kitchen4.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "1737560903560450",
+      "name": "15-Piece Stainless Steel Hollow Handle Block Set",
+      "description": "Strong, durable bolster for perfect stability and control. Lightweight knives that slice, carve, and chop",
+      "price": 50.00,
+      "category": 7,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71OoifMpDUL._AC_SX679_.jpg",
+      "image": "kitchen5.jpg"
+    }
+  },
+    {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "9444914621311370",
+      "name": "Everlasting Comfort Luxury Faux Fur Throw Blanket",
+      "description": "Cozy up anywhere in a silky, soft, and warm throw blanket from Everlasting Comfort. Both sides of the blanket are made of high-quality faux fur that’s plush, smooth, and feels just like real animal fur.",
+      "price": 29.99,
+      "category": 8,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81QvWu4RwLL._AC_SL1500_.jpg",
+      "image": "livingroom1.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "7238421557443850",
+      "name": "Abington Lane Contemporary Square Coffee Table",
+      "description": " This simple yet sleek rectangle coffee table fits any room and any style.",
+      "price": 109.99,
+      "category": 8,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81QWRUHXhDL._AC_SL1500_.jpg",
+      "image": "livingroom2.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "988080139593208",
+      "name": "Rigo Hand Woven Jute Runner Rug",
+      "description": "The perfect combination of style and durability, this jute and natural fiber rug will bring home effortless sophistication",
+      "price": 94.99,
+      "category": 8,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91i0wzuMI-L._AC_SL1500_.jpg",
+      "image": "livingroom3.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "9889878473580680",
+      "name": "Vintage non-tick Wall Clock",
+      "description": "Equipped with high quality sweeping movement-non ticking/accurate timekeeping. Also it will give you absolutely silent environment all the day, especially at nights -Just like the baby’s breath, nothing noise.",
+      "price": 19.99,
+      "category": 8,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71CYu5NWUQL._AC_SL1500_.jpg",
+      "image": "livingroom4.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "2360808787083030",
+      "name": "Trinity Arc Floor Lamp",
+      "description": "Ideal for living room or sectional. A rustic substitue to typical lamp fixtures and offers multi-directional light",
+      "price": 49.99,
+      "category": 8,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71uAoDj%2BX9L._AC_SL1500_.jpg",
+      "image": "livingroom5.jpg"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "9458954969698920",
+      "name": "7 Drawers Dresser - Furniture Storage Tower",
+      "description": "Sturdy steel frame wood top with smooth finish, Soft fabric drawers with Easy pull-out fabric handles",
+      "price": 49.99,
+      "category": 9,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/A17EgK-CYyL._AC_SX679_.jpg",
+      "image": "bedroom1.jpg"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "3626139368013320",
+      "name": "Nightstand",
+      "description": "Rustic brown wood grain pattern, matte black iron frame and round drawer knobs, come together on the side table. Immediately transform the boring living room thanks to the industrial charmer",
+      "price": 74.99,
+      "category": 9,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71nNeXcnuuL._AC_SL1500_.jpg",
+      "image": "bedroom2.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "7649721980178960",
+      "name": "Blackout Curtains",
+      "description": "These window curtains can block out 90% - 99% sunlight and UV ray ( Darker colors work better ), perfect for night shifts, late sleepers and afternoon naps. Protect floor and upholstery from color shading.",
+      "price": 59.99,
+      "category": 9,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61IzB-Y2K1L._AC_SX679_.jpg",
+      "image": "bedroom3.jpg"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "9391447271133700",
+      "name": "Philips SmartSleep Wake-Up Light Alarm Clock",
+      "description": "Clinically proven light therapy lamp and alarm clock for improving your sleep, energy, and well being",
+      "price": 45.00,
+      "category": 9,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81oAS4a4OhL._AC_SX679_.jpg",
+      "image": "bedroom4.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "3623057388027520",
+      "name": "Mellanni Bed Sheet Set",
+      "description": "Sleep better and wake up each morning feeling refreshed and full of energy. Silky soft, most comfortable and luxurious bed sheets you can find.",
+      "price": 30.00,
+      "category": 9,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/516PP4JiCsL._AC_SX679_.jpg",
+      "image": "bedroom5.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "1227044144411600",
+      "name": "SAMSUNG 40 inches LED Smart FHD TV 1080P",
+      "description": "Experience immersive viewing when you add this Samsung 40 In. Smart TV to your home. The wide color enhancer and Full HD resolution deliver vibrant picture quality, while the Digital Clean View optimizes content for better results. A unique lifestyle gallery creates scenic views for any room in your home when this TV is not in use.",
+      "price": 200.00,
+      "category": 10,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/816ZQ51AieL._AC_SY450_.jpg",
+      "image": "tv1.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "6834765455965370",
+      "name": "TCL 65-inch 5-Series 4K UHD Dolby Vision HDR QLED Roku Smart TV",
+      "description": "TCL’s 5-Series QLED TV marries premium picture and endless entertainment for a stellar home theater experience. Quantum Dot technology and the HDR Pro Pack with Dolby Vision combine for greater brightness and contrast, as well as a full palette of rich colors. ",
+      "price": 599.99,
+      "category": 10,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91tMNAWWsPL._AC_SL1500_.jpg",
+      "image": "tv2.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "4154323309918300",
+      "name": "Wide TV Entertainment Center",
+      "description": "Fits Space, Fits Budget",
+      "price": 149.99,
+      "category": 10,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61QTsCYCCVL._AC_SL1500_.jpg",
+      "image": "tv3.jpg"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "2729609538775740",
+      "name": "SAMSUNG 85-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR Smart TV with Alexa Built-in",
+      "description": "Experience your favorite movies and shows on a vibrant, stunning 4K UHD screen, using the Universal Guide to surf smoothly and select content. Everything you watch is automatically upscaled into 4K for stunningly vivid color and detail.",
+      "price": 799.99,
+      "category": 10,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91FcuuZwcrL._AC_SX450_.jpg",
+      "image": "tv4.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "7598339133634740",
+      "name": "Nexillumi LED Lights for TV 60-75 Inch",
+      "description": "After the home supper, Maybe this is a good time to watch TV!!! The LED lights would definitely be an icing on the cake while you chill out and kick back with video streaming services.",
+      "price": 19.99,
+      "category": 10,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/81JERLZNprL._AC_SX679_.jpg",
+      "image": "tv5.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "8619856145869550",
+      "name": "Xbox Series S",
+      "description": "Introducing the Xbox Series S, the smallest, sleekest Xbox console ever. Experience the speed and performance of a next-gen all-digital console at an accessible cost.",
+      "price": 349.99,
+      "category": 11,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61Q2hRo4BCL._SL1200_.jpg",
+      "image": "gc1.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "4575304538806880",
+      "name": "PlayStation 4 Console - 1TB Slim Edition",
+      "description": "All the greatest, games, TV, music and more. Connect with your friends to broadcast and celebrate your epic moments at the press of the Share button to Twitch, YouTube, Facebook and Twitter.",
+      "price": 249.99,
+      "category": 11,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/715RBdgZtHL._SL1500_.jpg",
+      "image": "gc2.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "1041384011030780",
+      "name": "PlayStation 5 Console",
+      "description": "Lightning Speed - Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do.",
+      "price": 399.99,
+      "category": 11,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/619BkvKW35L._SL1500_.jpg",
+      "image": "gc3.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "5325215872109330",
+      "name": "Nintendo Switch",
+      "description": "Nintendo Switch with Red & Blue Joy-Con controllers. Nintendo Switch is Nintendo latest home video game system. In addition to providing single and multiplayer thrills at home, the Nintendo Switch system can be taken on the go so players can enjoy a full home console experience anytime, anywhere. ",
+      "price": 400.00,
+      "category": 11,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/61DndcbbqQL._SL1500_.jpg",
+      "image": "gc4.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "7214861056519360",
+      "name": "Nindendo SNES",
+      "description": "If you are here, then you already know. All on one console, ready for your smart TV. ;)",
+      "price": 299.99,
+      "category": 11,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71WVhJbTslL._SL1500_.jpg",
+      "image": "gc5.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "7417946019666900",
+      "name": "Lenovo Chromebook C330 2-in-1 Convertible Laptop",
+      "description": "Faster, simpler, and more secure, the Lenovo Chromebook C330 brings the latest Chromebook features to you in a sleek, stylish, and durable Blizzard White convertible design.",
+      "price": 249.99,
+      "category": 12,
+      "rating": 3,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/812MizmMvkL._AC_SL1500_.jpg",
+      "image": "laptop1.jpg"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "6633852963375150",
+      "name": "HP Chromebook 14-inch HD Laptop",
+      "description": "The best of work and play in one place. The HP Chromebook with an Intel processor, 14 display sporting more screen space, stereo speakers tuned by the audio experts at B&O and over 12 hours of battery life, you can knock out any assignment while binge watching your favorite shows.",
+      "price": 239.99,
+      "category": 12,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/91shKLxoedL._AC_SL1500_.jpg",
+      "image": "laptop2.jpg"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "4998609440817310",
+      "name": "Acer Aspire 5 Slim Laptop, 15.6 inches Full HD",
+      "description": "Speed ​​up your workflow and complete projects quickly thanks to the latest AMD Ryzen ™ 4000 processor for laptops, the AMD Radeon ort graphics card and lots of high-speed storage and memory.",
+      "price": 309.00,
+      "category": 12,
+      "rating": 4,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg",
+      "image": "laptop3.jpg"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "6015861131129330",
+      "name": "Apple MacBook Air 2020",
+      "description": "Apple's thinnest, lightest notebook, completely transformed by the Apple M1 chip.",
+      "price": 1100.00,
+      "category": 12,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71jG%2Be7roXL._AC_SL1500_.jpg",
+      "image": "laptop4.jpg"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "2091480733882830",
+      "name": "Apple MacBook Pro 2020",
+      "description": "Designed for those who defy limits and change the world, the new MacBook Pro is by far the most powerful notebook Apple has ever made.",
+      "price": 1850.00,
+      "category": 12,
+      "rating": 5,
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/71pC69I3lzL._AC_SL1500_.jpg",
+      "image": "laptop5.jpg"
+    }
+  }
+]

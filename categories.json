@@ -1,0 +1,98 @@
+[
+  {
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+      "name": "mens_jeans",
+      "friendly_name": "Mens Jeans & Trousers"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+      "name": "mens_tops",
+      "friendly_name": "Mens Tops"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+      "name": "mens_acc",
+      "friendly_name": "Mens Accessories"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+      "name": "womens_jeans",
+      "friendly_name": "Womens Jeans & Trousers"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+      "name": "womens_tops",
+      "friendly_name": "Womens Tops"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+      "name": "womens_acc",
+      "friendly_name": "Womens Accessories"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+      "name": "kitchen",
+      "friendly_name": "Kitchen"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+      "name": "living_room",
+      "friendly_name": "Living Room"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+      "name": "bedroom",
+      "friendly_name": "Bedroom"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+      "name": "tvs",
+      "friendly_name": "TVs"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+      "name": "games_consoles",
+      "friendly_name": "Games Consoles"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+      "name": "laptops",
+      "friendly_name": "Laptops"
+    }
+  }
+]
