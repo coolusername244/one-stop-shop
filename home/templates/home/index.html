@@ -1,5 +1,30 @@
 {% extends "base.html" %}
 {% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
 {% block content %}
-    <h1>Hello World!</h1>
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-7 col-md-6 my-auto">
+                <h1 class="display-4 logo-font text-black">
+                    Welcome to your online shopping experience!
+                </h1>
+                <h4>
+                    Take a look at what we have to offer!
+                </h4>
+                <div class="my-5">
+                    <h4>
+                        <a href="" class="shop-now-button btn btn-lg btn-success rounded-3 text-uppercase py-2">Shop Now</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
