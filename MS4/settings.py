@@ -70,14 +70,17 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # this CP is required by AllAuth - DO NOT DELETE - used for "request.user" etc
+                # this CP below is required by AllAuth - DO NOT DELETE
+                # used for "request.user" etc
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
         },
     },
 ]
-# This code has been copied from: https://django-allauth.readthedocs.io/en/latest/installation.html
+# This code has been copied from:
+# https://django-allauth.readthedocs.io/en/latest/installation.html
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
