@@ -66,3 +66,14 @@ body {
         padding-top: 164px;
     }
 }
+
+/* push the body down on smaller screens from underneath the navbar */
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 85px;
+    }
+
+    body {
+        height: calc(100vh - 100px);
+    }
+}
