@@ -21,11 +21,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mens-section-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mens Section
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Jeans &amp; Trousers</a>
-                <a href="" class="dropdown-item">Tops &amp; Shirts</a>
-                <a href="" class="dropdown-item">Accessories</a>
-                <a href="" class="dropdown-item">All</a>
+            <div class="dropdown-menu border-0" aria-labelledby="mens-clothing-link">
+                <a href="{% url 'products' %}?category=mens_jeans" class="dropdown-item">Jeans &amp; Trousers</a>
+                <a href="{% url 'products' %}?category=mens_tops" class="dropdown-item">Tops &amp; Shirts</a>
+                <a href="{% url 'products' %}?category=mens_acc" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=mens_jeans,mens_tops,mens_acc" class="dropdown-item">All</a>
             </div>
         </li>
 
@@ -33,11 +33,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="womens-section-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Womens Section
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Jeans &amp; Trousers</a>
-                <a href="" class="dropdown-item">Tops &amp; Shirts</a>
-                <a href="" class="dropdown-item">Accessories</a>
-                <a href="" class="dropdown-item">All</a>
+            <div class="dropdown-menu border-0" aria-labelledby="womens-clothing-link">
+                <a href="{% url 'products' %}?category=womens_jeans" class="dropdown-item">Jeans &amp; Trousers</a>
+                <a href="{% url 'products' %}?category=womens_tops" class="dropdown-item">Tops &amp; Shirts</a>
+                <a href="{% url 'products' %}?category=womens_acc" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=womens_jeans,womens_tops,womens_acc" class="dropdown-item">All</a>
             </div>
         </li>
 
@@ -46,10 +46,10 @@
                 Home
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Kitchen</a>
-                <a href="" class="dropdown-item">Living Room</a>
-                <a href="" class="dropdown-item">Bedroom</a>
-                <a href="" class="dropdown-item">All Home</a>
+                <a href="{% url 'products' %}?category=kitchen" class="dropdown-item">Kitchen</a>
+                <a href="{% url 'products' %}?category=living_room" class="dropdown-item">Living Room</a>
+                <a href="{% url 'products' %}?category=bedroom" class="dropdown-item">Bedroom</a>
+                <a href="{% url 'products' %}?category=kitchen,living_room,bedroom" class="dropdown-item">All Home</a>
             </div>
         </li>
 
@@ -58,10 +58,10 @@
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">TVs</a>
-                <a href="" class="dropdown-item">Games Consoles</a>
-                <a href="" class="dropdown-item">Laptops</a>
-                <a href="" class="dropdown-item">All Electronics</a>
+                <a href="{% url 'products' %}?category=tvs" class="dropdown-item">TVs</a>
+                <a href="{% url 'products' %}?category=games_consoles" class="dropdown-item">Games Consoles</a>
+                <a href="{% url 'products' %}?category=laptops" class="dropdown-item">Laptops</a>
+                <a href="{% url 'products' %}?category=tvs,games_consoles,laptops" class="dropdown-item">All Electronics</a>
             </div>
         </li>
     </ul>
