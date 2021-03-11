@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, HttpResponse
 
 
 # Create your views here.
@@ -60,3 +60,25 @@ def modify_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(reverse('view_shopping_bag'))
+
+
+def delete_item_from_bag(request, item_id):
+    # This is a view that will allow users to delete an item in the bag
+    try:
+        size = None
+        if 'product_size' in request.POST:
+            size = request.POST['product_size']
+        bag = request.session.get('bag', {})
+
+        if size:
+            del bag[item_id]['items_by_size'][size]
+            if not bag[item_id]['items_by_size']:
+                bag.pop(item_id)
+        else:
+            bag.pop(item_id)
+
+        request.session['bag'] = bag
+        return HttpResponse(status=200)
+
+    except Exception as e:
+        return HttpResponse(status=500)
