@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.conf import settings
 
@@ -11,7 +11,7 @@ if path.exists('env.py'):
     import env
 
 from .forms import OrderForm
-from .models import OrderLineItem
+from .models import Order, OrderLineItem
 from products.models import Product
 from bag.contexts import bag_contents
 
@@ -66,7 +66,7 @@ def checkout(request):
                     return redirect(reverse('view_shopping_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse('checkout_success', args=[order.order_number]))
+            return redirect(reverse('checkout_complete', args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
@@ -92,5 +92,25 @@ def checkout(request):
             'stripe_public_key': stripe_public_key,
             'client_secret': intent.client_secret
         }
+
+    return render(request, template, context)
+
+
+def checkout_complete(request, order_number):
+    # This is a view that will handle successful checkouts
+
+    save_info = request.session.get('save_info')
+    order = get_object_or_404(Order, order_number=order_number)
+    messages.success(request, f'Order successfully processed! \
+        Your order number is {order_number}. A confirmation \
+        email will be sent to {order.email}.')
+
+    if 'bag' in request.session:
+        del request.session['bag']
+
+    template = 'checkout/checkout_complete.html'
+    context = {
+        'order': order,
+    }
 
     return render(request, template, context)
