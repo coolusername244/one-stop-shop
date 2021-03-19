@@ -112,3 +112,11 @@ def edit_a_product(request, product_id):
     }
 
     return render(request, template, context)
+
+
+def delete_a_product(request, product_id):
+
+    product = get_object_or_404(Product, pk=product_id)
+    product.delete()
+    messages.success(request, 'Product has been removed from store!')
+    return redirect(reverse('products'))
