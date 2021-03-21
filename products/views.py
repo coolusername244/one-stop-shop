@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+
 from .models import Product, Category
 from .forms import ProductForm
 
@@ -40,10 +41,13 @@ def products_library(request):
         if 'query' in request.GET:
             query = request.GET['query']
             if not query:
-                messages.error(request, "One must know what one is looking for")
+                messages.error(request,
+                               "One must know what one is looking for")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = (
+                Q(name__icontains=query) | Q(description__icontains=query)
+            )
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -70,11 +74,13 @@ def single_product_detail(request, product_id):
 
     return render(request, 'products/single_product_detail.html', context)
 
+
 @login_required
 def add_a_product(request):
 
     if not request.user.is_superuser:
-        messages.error(request, 'You do not have permission to carry out this task')
+        messages.error(request,
+                       'You do not have permission to carry out this task')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -82,9 +88,11 @@ def add_a_product(request):
         if form.is_valid():
             product = form.save()
             messages.success(request, 'Product Added Successfully!')
-            return redirect(reverse('single_product_detail', args=[product.id]))
+            return redirect(reverse('single_product_detail',
+                                    args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Make sure that the link is valid.')
+            messages.error(request,
+                           'Failed to add product. Check link is valid.')
     else:
         form = ProductForm()
 
@@ -95,11 +103,13 @@ def add_a_product(request):
 
     return render(request, template, context)
 
+
 @login_required
 def edit_a_product(request, product_id):
 
     if not request.user.is_superuser:
-        messages.error(request, 'You do not have permission to carry out this task')
+        messages.error(request,
+                       'You do not have permission to carry out this task')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
@@ -108,9 +118,11 @@ def edit_a_product(request, product_id):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully updated product!')
-            return redirect(reverse('single_product_detail', args=[product_id]))
+            return redirect(reverse('single_product_detail',
+                                    args=[product_id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to update. Check the form is valid.')
     else:
         form = ProductForm(instance=product)
         messages.success(request, f'You are about to edit { product.name }')
@@ -123,11 +135,13 @@ def edit_a_product(request, product_id):
 
     return render(request, template, context)
 
+
 @login_required
 def delete_a_product(request, product_id):
 
     if not request.user.is_superuser:
-        messages.error(request, 'You do not have permission to carry out this task')
+        messages.error(request,
+                       'You do not have permission to carry out this task')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
