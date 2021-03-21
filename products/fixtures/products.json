@@ -4,8 +4,8 @@
     "model": "products.product",
     "fields": {
       "sku": "1343665349855520",
-      "name": "Wrangler Men's Regular Fit Comfort Flex Waist Jean",
-      "description": "Wrangler Authentics Men's Regular Fit Comfort Flex Jean. This versatile jean is constructed with durable materials built for long-lasting comfort and added range of movement. Made with a regular fit, this jean sits at the natural waist and features a regular seat and thigh.",
+      "name": "Wrangler Men's Regular Fit Comfort Flex Waist Jeans",
+      "description": "These versatile jeans are constructed with durable materials built for long-lasting comfort and added range of movement. Made with a regular fit, these jeans sit at the natural waist and features a regular seat and thigh.",
       "price": 49.99,
       "category": 1,
       "rating": 5,
@@ -18,8 +18,8 @@
     "model": "products.product",
     "fields": {
       "sku": "1478285904264670",
-      "name": "Wrangler Authentics Men's Relaxed Fit Boot Cut Jean",
-      "description": "Wrangler Authentics Men's Relaxed Fit Boot Cut Jean. This denim boot cut jean is constructed with durable 100% cotton built for long-lasting wear and all-day comfort. Designed with a relaxed boot cut fit through the leg, this comfortable jean sits at the natural waist and features a relaxed seat and thigh.",
+      "name": "Wrangler Authentics Men's Relaxed Fit Boot Cut Jeans",
+      "description": "These denim boot cut jeans are constructed with durable 100% cotton built for long-lasting wear and all-day comfort. Designed with a relaxed boot cut fit through the leg, these comfortable jeans sits at the natural waist and features a relaxed seat and thigh.",
       "price": 44.99,
       "category": 1,
       "rating": 4,
@@ -33,7 +33,7 @@
     "fields": {
       "sku": "1774827834350560",
       "name": "Levi's Men's 501 Original Fit Jeans",
-      "description": "The original blue jean since 1873. The original straight fit jean. All-American style. A blank canvas for self-expression. Extended sizes for Big & Tall fit.",
+      "description": "The original blue jeans since 1873. The original straight fit jeans. All-American style. A blank canvas for self-expression. Extended sizes for Big & Tall fit.",
       "price": 39.99,
       "category": 1,
       "rating": 5,
@@ -60,7 +60,7 @@
     "model": "products.product",
     "fields": {
       "sku": "9390946589521760",
-      "name": "Lucky Brand Men's 361 Vintage Straight Jean",
+      "name": "Lucky Brand Men's 361 Vintage Straight Jeans",
       "description": "Designed for every guy, the 361 has a comfortable mid-rise, relaxed seat and classic straight leg.",
       "price": 45.00,
       "category": 1,
@@ -130,8 +130,8 @@
     "model": "products.product",
     "fields": {
       "sku": "7566874244130810",
-      "name": "Polo Ralph Lauren Men's Slim Fit w/Wicking 3-Pack Crews",
-      "description": "Polo Ralph Lauren size chart A quality Polo Ralph Lauren® staple for your wardrobe essentials. Slim fit tee crafted from a moisture-wicking cotton fabric for all-day comfort.",
+      "name": "Polo Ralph Lauren Men's Slim Fit 3-Pack Crews",
+      "description": "A quality Polo Ralph Lauren® staple for your wardrobe essentials. Slim fit tee crafted from a moisture-wicking cotton fabric for all-day comfort.",
       "price": 24.99,
       "category": 2,
       "rating": 4,
@@ -144,7 +144,7 @@
     "model": "products.product",
     "fields": {
       "sku": "5557810072775170",
-      "name": "HULISLEM S1 Sport Polarized Sunglasses",
+      "name": "Sport Polarized Sunglasses",
       "description": "Each of the lenses are cut from one single toric lens with the super HD fuction .This means that you get amazing depth perception,color contrast as well as clarity.Astylish carrying case Comes with a stylish carrying case,cleaning cloth,and polarization test card.",
       "price": 14.99,
       "category": 3,
@@ -215,7 +215,7 @@
     "fields": {
       "sku": "3158776456884360",
       "name": "Women High Waist Skinny Stretch Ripped Jeans Destroyed Denim Pants",
-      "description": "A casual Womens young contemporary fit that goes with anything. Fitted through the top of body & thigh. You will love Our Blueage Skinny Ripped and Destroyed Jean every inch, every angle, every curve",
+      "description": "A casual Womens young contemporary fit that goes with anything. Fitted through the top of body & thigh. You will love Our Blueage Skinny Ripped and Destroyed jeans - every inch, every angle, every curve",
       "price": 29.99,
       "category": 4,
       "rating": 3,
@@ -228,8 +228,8 @@
     "model": "products.product",
     "fields": {
       "sku": "8626604600959980",
-      "name": "Democracy Women's Ab Solution Straight Leg Jean",
-      "description": "A universally great fitting jean with slimming style lines & feminine details. On the inside, there is a soft, no-gap elastic waistband that conforms to your body shape.",
+      "name": "Democracy Women's Ab Solution Straight Leg Jeans",
+      "description": "A universally great fitting pair of jeans with slimming style lines & feminine details. On the inside, there is a soft, no-gap elastic waistband that conforms to your body shape.",
       "price": 34.99,
       "category": 4,
       "rating": 4,
@@ -242,8 +242,8 @@
     "model": "products.product",
     "fields": {
       "sku": "3004497112562720",
-      "name": "Lee Women's Secretly Shapes Regular Fit Straight Leg Jean",
-      "description": "You have found the perfect mid-rise jean! Our regular fit mid-rise jean sits below the natural waist and has a slimming fit through the seat and thigh. ",
+      "name": "Lee Women's Secretly Shapes Regular Fit Straight Leg Jeans",
+      "description": "You have found the perfect pair of mid-rise jeans! Our regular fit mid-rise jeans sits below the natural waist and has a slimming fit through the seat and thigh.",
       "price": 19.99,
       "category": 4,
       "rating": 5,
@@ -256,8 +256,8 @@
     "model": "products.product",
     "fields": {
       "sku": "1474323723774750",
-      "name": "Riders by Lee Indigo Women's Midrise Bootcut Jean",
-      "description": "You have found the perfect mid-rise jean! Our regular fit mid-rise jean sits below the natural waist and has a slimming fit through the seat and thigh.",
+      "name": "Riders by Lee Indigo Women's Midrise Bootcut Jeans",
+      "description": "You have found the perfect pair of mid-rise jeans! Our regular fit mid-rise jeans sits below the natural waist and has a slimming fit through the seat and thigh.",
       "price": 17.99,
       "category": 4,
       "rating": 4,
@@ -270,7 +270,7 @@
     "model": "products.product",
     "fields": {
       "sku": "4795492489374670",
-      "name": "Lee Women's Flex Motion Regular Fit Straight Leg Jean",
+      "name": "Lee Women's Flex Motion Regular Fit Straight Leg Jeans",
       "description": "Just like our founder,  H.D. Lee, our passion is helping can-do people do more. We are committed to designing clothing that conforms to your body, allowing you to move through life freely.",
       "price": 29.99,
       "category": 4,
@@ -298,8 +298,8 @@
     "model": "products.product",
     "fields": {
       "sku": "7995614720492770",
-      "name": "Astylish Women V Neck Striped Roll up Sleeve Button Down Blouses Tops",
-      "description": "Suit for daily wear, date, vacation, work, casual,office work",
+      "name": "Astylish Women V Neck Striped Roll up Sleeve Button Down Blouse",
+      "description": "Suit for daily wear, date, vacation, work, casual, office work",
       "price": 19.99,
       "category": 5,
       "rating": 3,
@@ -312,7 +312,7 @@
     "model": "products.product",
     "fields": {
       "sku": "3505106257113670",
-      "name": "MANGOPOP Womens Square Neck Short Sleeve/Long Sleeve Tops Bodysuit Jumpsuit",
+      "name": "MANGOPOP Womens Square Neck Long Sleeve Tops Bodysuit Jumpsuit",
       "description": "Bodysuits featuring a square neck, short sleeve / long sleeve",
       "price": 14.99,
       "category": 5,
@@ -326,7 +326,7 @@
     "model": "products.product",
     "fields": {
       "sku": "2151576302739930",
-      "name": "Astylish Women Open Front Long Sleeve Chunky Knit Cardigan Sweaters Loose Outwear Coat",
+      "name": "Astylish Women Open Front Long Sleeve Chunky Knit Cardigan",
       "description": "Casual Open Front Knit Sweater Cardigans for Women Juniors，Stay cozy and super warm in this slouchy cardigan on chilly winter",
       "price": 29.99,
       "category": 5,
@@ -340,7 +340,7 @@
     "model": "products.product",
     "fields": {
       "sku": "7052906179614490",
-      "name": "Angashion Women's Sweaters Casual Leopard Printed Patchwork Long Sleeves Knitted Pullover Cropped Sweater Tops",
+      "name": "Angashion Women's Sweaters Casual Leopard Printed Patchwork Long Sleeve Knitted Pullover",
       "description": "This women's cropped sweater is perfect for Spring, Fall, Winter, Party, Date, School, Daily Wearing, Work, At Home",
       "price": 24.99,
       "category": 5,
@@ -396,7 +396,7 @@
     "model": "products.product",
     "fields": {
       "sku": "9719448719506250",
-      "name": "Thick Cable Knit Faux Fuzzy Fur Pom Fleece Lined Skull Cap Cuff Beanie",
+      "name": "Thick Cable Knit Beanie",
       "description": "No description required, just look, super cute",
       "price": 17.99,
       "category": 6,
@@ -424,7 +424,7 @@
     "model": "products.product",
     "fields": {
       "sku": "7198346516428200",
-      "name": "Whistling Tea Kettle Stainless Steel Teapot, Teakettle for Stovetop Induction Stove Top, Fast Boiling Heat Water Tea Pot 2.2 Quart(Black)",
+      "name": "Whistling Tea Kettle Stainless Steel Teapot - Black",
       "description": "This LUXGRACE 2.2 quarts whistling stainless steel stovetop kettle is crafted of high quality stainless steel. Whistles when boiling, can be used on gas, electric, induction, halogen, and radiant stovetops.",
       "price": 29.99,
       "category": 7,
@@ -480,7 +480,7 @@
     "model": "products.product",
     "fields": {
       "sku": "1737560903560450",
-      "name": "15-Piece Stainless Steel Hollow Handle Block Set",
+      "name": "15-Piece Knife Set",
       "description": "Strong, durable bolster for perfect stability and control. Lightweight knives that slice, carve, and chop",
       "price": 50.00,
       "category": 7,
@@ -564,7 +564,7 @@
     "model": "products.product",
     "fields": {
       "sku": "9458954969698920",
-      "name": "7 Drawers Dresser - Furniture Storage Tower",
+      "name": "7 Drawers Dresser",
       "description": "Sturdy steel frame wood top with smooth finish, Soft fabric drawers with Easy pull-out fabric handles",
       "price": 49.99,
       "category": 9,
@@ -634,7 +634,7 @@
     "model": "products.product",
     "fields": {
       "sku": "1227044144411600",
-      "name": "SAMSUNG 40 inches LED Smart FHD TV 1080P",
+      "name": "SAMSUNG 40 inch LED Smart FHD TV 1080P",
       "description": "Experience immersive viewing when you add this Samsung 40 In. Smart TV to your home. The wide color enhancer and Full HD resolution deliver vibrant picture quality, while the Digital Clean View optimizes content for better results. A unique lifestyle gallery creates scenic views for any room in your home when this TV is not in use.",
       "price": 200.00,
       "category": 10,
@@ -676,7 +676,7 @@
     "model": "products.product",
     "fields": {
       "sku": "2729609538775740",
-      "name": "SAMSUNG 85-inch Class Crystal UHD TU-8000 Series - 4K UHD HDR Smart TV with Alexa Built-in",
+      "name": "SAMSUNG 85-inch Class Crystal UHD TU-8000 Series",
       "description": "Experience your favorite movies and shows on a vibrant, stunning 4K UHD screen, using the Universal Guide to surf smoothly and select content. Everything you watch is automatically upscaled into 4K for stunningly vivid color and detail.",
       "price": 799.99,
       "category": 10,
@@ -690,7 +690,7 @@
     "model": "products.product",
     "fields": {
       "sku": "7598339133634740",
-      "name": "Nexillumi LED Lights for TV 60-75 Inch",
+      "name": "Nexillumi LED Lights for TV 60 Inch",
       "description": "After the home supper, Maybe this is a good time to watch TV!!! The LED lights would definitely be an icing on the cake while you chill out and kick back with video streaming services.",
       "price": 19.99,
       "category": 10,
@@ -747,7 +747,7 @@
     "fields": {
       "sku": "5325215872109330",
       "name": "Nintendo Switch",
-      "description": "Nintendo Switch with Red & Blue Joy-Con controllers. Nintendo Switch is Nintendo latest home video game system. In addition to providing single and multiplayer thrills at home, the Nintendo Switch system can be taken on the go so players can enjoy a full home console experience anytime, anywhere. ",
+      "description": "Nintendo Switch with Red & Blue Joy-Con controllers. Nintendo Switch is Nintendo latest home video game system. In addition to providing single and multiplayer thrills at home, the Nintendo Switch system can be taken on the go so players can enjoy a full home console experience anytime, anywhere.",
       "price": 400.00,
       "category": 11,
       "rating": 3,
@@ -788,8 +788,8 @@
     "model": "products.product",
     "fields": {
       "sku": "6633852963375150",
-      "name": "HP Chromebook 14-inch HD Laptop",
-      "description": "The best of work and play in one place. The HP Chromebook with an Intel processor, 14 display sporting more screen space, stereo speakers tuned by the audio experts at B&O and over 12 hours of battery life, you can knock out any assignment while binge watching your favorite shows.",
+      "name": "HP Chromebook",
+      "description": "14-inch HD Laptop - The best of work and play in one place. The HP Chromebook with an Intel processor, 14 display sporting more screen space, stereo speakers tuned by the audio experts at B&O and over 12 hours of battery life, you can knock out any assignment while binge watching your favorite shows.",
       "price": 239.99,
       "category": 12,
       "rating": 4,
@@ -802,8 +802,8 @@
     "model": "products.product",
     "fields": {
       "sku": "4998609440817310",
-      "name": "Acer Aspire 5 Slim Laptop, 15.6 inches Full HD",
-      "description": "Speed ​​up your workflow and complete projects quickly thanks to the latest AMD Ryzen ™ 4000 processor for laptops, the AMD Radeon ort graphics card and lots of high-speed storage and memory.",
+      "name": "Acer Aspire 5 Slim Laptop",
+      "description": "15.6 inches Full HD - Speed ​​up your workflow and complete projects quickly thanks to the latest AMD Ryzen ™ 4000 processor for laptops, the AMD Radeon ort graphics card and lots of high-speed storage and memory.",
       "price": 309.00,
       "category": 12,
       "rating": 4,
