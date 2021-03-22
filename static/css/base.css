@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap');
+
 html {
     height: 100%;
 }
 
 body {
     height: calc(100vh - 164px);
+    font-family: 'Libre Franklin', sans-serif;
 }
+
+.bg-nav {
+    background-color: #8DD2FC;
+}
+
+.navbar {
+    border-bottom: solid 1px #000;
+}
+
 
 /* from Bulma - https://bulma.io/documentation/elements/icon/ */
 .icon {
@@ -29,9 +41,9 @@ body {
     min-width: 260px;
 }
 
-.btn-black {
-    background: black;
-    color: white;
+.btn-white {
+    background: white;
+    color: black;
 }
 
 .shop-now-button:hover,
