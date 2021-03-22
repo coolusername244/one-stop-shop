@@ -1,1 +1,1 @@
-Order confirmation for {{ order.order_number }}
+One Stop Shop - Order Confirmation
