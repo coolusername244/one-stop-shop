@@ -70,14 +70,14 @@
                 News
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">View All</a>
+                <a href="{% url 'news' %}" class="dropdown-item">View All</a>
                 {% if user.is_superuser %}
                     <a href="" class="dropdown-item">Add Entry</a>
                 {% endif %}
             </div>
         </li>
-        <li class="nav-item ">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="contact-link">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'contact' %}" id="contact-link">
                 Contact Us
             </a>
         </li>
