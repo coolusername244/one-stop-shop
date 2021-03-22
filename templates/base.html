@@ -3,8 +3,7 @@
 
 <!doctype html>
 <html lang="en">
-  <head>
-
+<head>
     {% block meta %}
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta charset="utf-8">
@@ -34,111 +33,125 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Milestone 4 {% block extra_title %}{% endblock %}</title>
-  </head>
-  <body>
-    <header class="container-fluid fixed-top">
-        <div id="topnav" class="row bg-success pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0">
-                        Shop Name
-                    </h2>
-                </a>
-            </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                <form method="GET" action="{% url 'products' %}">
-                    <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="query" placeholder="Search...">
-                        <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
-                                <span class="icon">
-                                    <i class="fas fa-search"></i>
-                                </span>
-                            </button>
-                        </div>
+    <title>One Stop Shop! | {% block extra_title %}{% endblock %}</title>
+</head>
+<body>
+<header class="container-fluid fixed-top">
+    <div id="topnav" class="row bg-nav pt-lg-2 d-none d-lg-flex">
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+            <a href="{% url 'home' %}" class="nav-link main-logo-link">
+                <h2 class="logo-font text-black my-0">
+                    One Stop Shop!
+                </h2>
+            </a>
+        </div>
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <form method="GET" action="{% url 'products' %}">
+                <div class="input-group w-100">
+                    <input class="form-control border border-black rounded-0" type="text" name="query" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button class="form-control btn btn-white border border-black rounded-0" type="submit">
+                            <span class="icon">
+                                <i class="fas fa-search"></i>
+                            </span>
+                        </button>
                     </div>
-                </form>
-            </div> 
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
-                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
-                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
-                                <p class="my-0">My Account</p>
+                </div>
+            </form>
+        </div> 
+        <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <ul class="list-inline list-unstyled text-center text-lg-right my-0">
+                <li class="list-inline-item dropdown">
+                    <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="text-center">
+                            <div>
+                                <i class="fas fa-user-circle fa-2x"></i>
                             </div>
-                        </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                            {% if request.user.is_authenticated %}
-                                {% if request.user.is_superuser %}
-                                    <a href="{% url 'add_a_product' %}" class="dropdown-item">Product Management</a>
-                                {% endif %}
-                                <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
-                                <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
-                            {% else %}
-                                <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-                                <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
-                            {% endif %}
+                            <p class="my-0">My Account</p>
                         </div>
-                     </li>
-                     <li class="list-inline-item">
-                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_shopping_bag' %}">
-                            <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                                <p class="my-0">
-                                    {% if total %}
-                                        ${{ total|floatformat:2 }}
-                                    {% else %}
-                                        $0.00
-                                    {% endif %}
-                                </p>
+                    </a>
+                    <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                        {% if request.user.is_authenticated %}
+                            {% if request.user.is_superuser %}
+                                <a href="{% url 'add_a_product' %}" class="dropdown-item">Product Management</a>
+                            {% endif %}
+                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                        {% else %}
+                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                        {% endif %}
+                    </div>
+                </li>
+                <li class="list-inline-item">
+                    <a class="text-black nav-link" href="{% url 'view_shopping_bag' %}">
+                        <div class="text-center">
+                            <p class="my-0 small">
+                                {% if product_count %}
+                                    {{ product_count }}
+                                {% else %}
+                                    0
+                                {% endif %}
+                            </p>
+                            <div>
+                                <i class="fas fa-shopping-cart fa-lg"></i>
                             </div>
-                        </a>
-                     </li>
-                 </ul>
-            </div> 
-        </div>
-        <div class="row bg-danger">
-            <nav class="navbar navbar-expand-lg navbar-light w-100">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                {% include 'includes/mobile-header.html' %}
-                {% include 'includes/main-nav.html' %}
-            </nav>
-        </div>
-    </header>
-    {% if messages %}
-        <div class="message-container">
-            {% for message in messages %}
-                 {% with message.level as level %}
-                    {% if level == 40 %}
-                        {% include 'includes/toasts/toast_error.html' %}
-                    {% elif level == 30 %}
-                        {% include 'includes/toasts/toast_warning.html' %}
-                    {% elif level == 25 %}
-                        {% include 'includes/toasts/toast_success.html' %}
-                    {% else %}
-                        {% include 'includes/toasts/toast_info.html' %}
-                    {% endif %}
-                 {% endwith %}
-            {% endfor %}
-        </div>
-    {% endif %}
+                            <p class="my-0">
+                                {% if total %}
+                                    ${{ total|floatformat:2 }}
+                                {% else %}
+                                    $0.00
+                                {% endif %}
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div> 
+    </div>
+    <div class="row bg-nav">
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            {% include 'includes/mobile-header.html' %}
+            {% include 'includes/main-nav.html' %}
+        </nav>
+    </div>
+</header>
+{% if messages %}
+    <div class="message-container">
+    {% for message in messages %}
+        {% with message.level as level %}
+            {% if level == 40 %}
+                {% include 'includes/toasts/toast_error.html' %}
+            {% elif level == 30 %}
+                {% include 'includes/toasts/toast_warning.html' %}
+            {% elif level == 25 %}
+                {% include 'includes/toasts/toast_success.html' %}
+            {% else %}
+                {% include 'includes/toasts/toast_info.html' %}
+            {% endif %}
+        {% endwith %}
+    {% endfor %}
+    </div>
+{% endif %}
 
-    {% block page_header %}
-    {% endblock %}
+{% block page_header %}
+{% endblock %}
 
-    {% block content %}
-    {% endblock %}
 
-    {% block postloadjs %}
-    <script type="text/javascript">
-        $('.toast').toast('show');
-    </script>
-    {% endblock %}
+{% block content %}
+{% endblock %}
 
-    
-  </body>
+
+
+{% block postloadjs %}
+<script type="text/javascript">
+    $('.toast').toast('show');
+</script>
+{% endblock %}
+
+
+</body>
 </html>
