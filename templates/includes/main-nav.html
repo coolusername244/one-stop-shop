@@ -54,7 +54,7 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Electronics
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
@@ -63,6 +63,23 @@
                 <a href="{% url 'products' %}?category=laptops" class="dropdown-item">Laptops</a>
                 <a href="{% url 'products' %}?category=tvs,games_consoles,laptops" class="dropdown-item">All Electronics</a>
             </div>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="news-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                News
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="" class="dropdown-item">View All</a>
+                {% if user.is_superuser %}
+                    <a href="" class="dropdown-item">Add Entry</a>
+                {% endif %}
+            </div>
+        </li>
+        <li class="nav-item ">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="contact-link">
+                Contact Us
+            </a>
         </li>
     </ul>
 </div>
