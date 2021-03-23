@@ -16,6 +16,11 @@
 {% endblock %}
 
 {% block content %}
-
-<p>Oh hi there</p>
+<div class="container-fluid">
+    <form method="POST"  action="{% url 'contact' %}" class="form mb-2">
+        {% csrf_token %}
+        {{ contact_form | crispy }}
+        <button class="btn btn-black rounded-0" type="submit">Send</button>
+    </form>
+</div>
 {% endblock %}
