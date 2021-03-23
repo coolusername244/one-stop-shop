@@ -1,15 +1,15 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-md-none">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
-                Home
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
+                Home Page
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu dropdown-border" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -18,10 +18,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mens-section-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="mens-section-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mens Section
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="mens-clothing-link">
+            <div class="dropdown-menu dropdown-border" aria-labelledby="mens-clothing-link">
                 <a href="{% url 'products' %}?category=mens_jeans" class="dropdown-item">Jeans &amp; Trousers</a>
                 <a href="{% url 'products' %}?category=mens_tops" class="dropdown-item">Tops &amp; Shirts</a>
                 <a href="{% url 'products' %}?category=mens_acc" class="dropdown-item">Accessories</a>
@@ -30,10 +30,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="womens-section-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="womens-section-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Womens Section
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="womens-clothing-link">
+            <div class="dropdown-menu dropdown-border" aria-labelledby="womens-clothing-link">
                 <a href="{% url 'products' %}?category=womens_jeans" class="dropdown-item">Jeans &amp; Trousers</a>
                 <a href="{% url 'products' %}?category=womens_tops" class="dropdown-item">Tops &amp; Shirts</a>
                 <a href="{% url 'products' %}?category=womens_acc" class="dropdown-item">Accessories</a>
@@ -42,10 +42,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="home-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="home-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Home
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+            <div class="dropdown-menu dropdown-border" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=kitchen" class="dropdown-item">Kitchen</a>
                 <a href="{% url 'products' %}?category=living_room" class="dropdown-item">Living Room</a>
                 <a href="{% url 'products' %}?category=bedroom" class="dropdown-item">Bedroom</a>
@@ -54,30 +54,35 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="electronics-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Electronics
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+            <div class="dropdown-menu dropdown-border" aria-labelledby="specials-link">
                 <a href="{% url 'products' %}?category=tvs" class="dropdown-item">TVs</a>
                 <a href="{% url 'products' %}?category=games_consoles" class="dropdown-item">Games Consoles</a>
                 <a href="{% url 'products' %}?category=laptops" class="dropdown-item">Laptops</a>
                 <a href="{% url 'products' %}?category=tvs,games_consoles,laptops" class="dropdown-item">All Electronics</a>
             </div>
         </li>
-        
+        {% if not user.is_superuser %}
+            <li class="nav-item">
+                <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'news' %}" id="news-link">
+                    News
+                </a>
+            </li>
+        {% else %}
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="news-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="news-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 News
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+            <div class="dropdown-menu dropdown-border" aria-labelledby="specials-link">
                 <a href="{% url 'news' %}" class="dropdown-item">View All</a>
-                {% if user.is_superuser %}
-                    <a href="{% url 'add_news' %}" class="dropdown-item">Add Entry</a>
-                {% endif %}
+                <a href="{% url 'add_news' %}" class="dropdown-item">Add Entry</a>
             </div>
         </li>
+        {% endif %}
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'contact' %}" id="contact-link">
+            <a class="logo-font font-weight-bold nav-link text-white" href="{% url 'contact' %}" id="contact-link">
                 Contact Us
             </a>
         </li>
