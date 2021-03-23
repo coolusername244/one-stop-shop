@@ -16,22 +16,19 @@
 {% block content %}
     <div class="container h-100">
         <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    Welcome to your online shopping experience!
+            <div class="col-12 my-auto text-center">
+                <h1 class="display-5 uppercase text-black">
+                    Welcome to your One Stop Shop! Everything you need, all in one place!
                 </h1>
                 <h4>
                     Take a look at what we have to offer!
                 </h4>
                 <div class="my-5">
                     <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg btn-success rounded-3 text-uppercase py-2">Shop Now</a>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-4 text-uppercase py-2">Shop Now</a>
                     </h4>
                 </div>
             </div>
-            <!--
-                this is where caruosel will go when products have been sorted
-            -->
         </div>
     </div>
 {% endblock %}
