@@ -17,5 +17,26 @@
 
 {% block content %}
 
-Newsy woozy
+{% for n in news %}
+    <div>
+        <h2>
+            <a href="">
+                {{ n.title}}
+            </a>
+        </h2>
+        {% if n.image %}
+            <img src="{{ n.image.url }}" alt="">
+        {% else %}
+            No Image
+        {% endif %}
+        <p>
+            {{ n.body }}
+        </p>
+        <p>
+            {{ n.date }}
+        </p>
+    </div>
+    <hr>
+{% endfor %}
+
 {% endblock %}
