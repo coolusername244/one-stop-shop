@@ -17,5 +17,10 @@
 
 {% block content %}
 
-<p>Oh hi there</p>
+<div>
+    <form method="POST" action="" class="form mb-2" enctype="multipart/form-data">
+        {{ add_news_form | crispy }}
+    </form>
+</div>
+
 {% endblock %}
