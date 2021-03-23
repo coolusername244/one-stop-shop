@@ -28,7 +28,9 @@ def add_news(request):
     if request.method == 'POST':
         add_news_form = forms.NewsForm(request.POST, request.FILES)
         if add_news_form.is_valid():
-            add_news_form.save()
+            instance = add_news_form.save(commit=False)
+            instance.author = request.user
+            instance.save()
             messages.success(request, 'News article added successfully!')
             return redirect('news')
     else:
