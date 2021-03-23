@@ -17,9 +17,11 @@
 
 {% block content %}
 
-<div>
-    <form method="POST" action="" class="form mb-2" enctype="multipart/form-data">
+<div class="container-fluid">
+    <form method="POST" action="{% url 'add_news' %}" class="form mb-2" enctype="multipart/form-data">
+        {% csrf_token %}
         {{ add_news_form | crispy }}
+        <button class="btn btn-black rounded-0" type="submit">Add Article</button>
     </form>
 </div>
 
