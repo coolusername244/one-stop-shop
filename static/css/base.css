@@ -5,17 +5,61 @@ html {
 }
 
 body {
+    background-color: #DFDFDF;
     height: calc(100vh - 164px);
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.bg-nav {
-    background-color: #8DD2FC;
+/*---------------------------------------------------------------- classes for NAVBAR  */
+
+.bg-nav-top {
+    background-color: #fff;
+}
+
+.bg-nav-bottom {
+    background-color: #707070;
 }
 
 .navbar {
     border-bottom: solid 1px #000;
 }
+
+.dropdown-border {
+    border: solid black 1px;
+}
+
+/*---------------------------------------------------------------- classes for TEXT COLORS */
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-white {
+    color: #fff !important;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+/*---------------------------------------------------------------- classes for BUTTONS */
+
+.btn-white {
+    background: white;
+    color: black;
+}
+
+.shop-now-button {
+    background: #707070;
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    min-width: 260px;
+}
+
+/*---------------------------------------------------------------- classes for PRODUCTS */
+
+.product-container {
+    background-color: white;
+    min-width: 80%;
+}
+
 
 
 /* from Bulma - https://bulma.io/documentation/elements/icon/ */
@@ -27,23 +71,12 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
+.uppercase {
     text-transform: uppercase;
 }
 
 .main-logo-link {
     width: fit-content;
-}
-
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-
-.btn-white {
-    background: white;
-    color: black;
 }
 
 .shop-now-button:hover,
@@ -52,12 +85,8 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #303030;
     color: white;
-}
-
-.text-black {
-    color: #000 !important;
 }
 
 .border-black {
@@ -82,7 +111,7 @@ body {
 
 .message-container {
     position: fixed;
-    top: 72px;
+    top: 85px;
     right: 15px;
     z-index: 99999999999;
 }
@@ -184,7 +213,7 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 144px;
     }
 }
 
