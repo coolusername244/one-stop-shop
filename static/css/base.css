@@ -41,6 +41,17 @@ body {
 
 /*---------------------------------------------------------------- classes for BUTTONS */
 
+.form-button {
+    border: solid black 1px;
+}
+
+.form-button:hover,
+.form-button:focus,
+.form-button:active {
+    color: white;
+    background: #707070;
+}
+
 .btn-white {
     background: white;
     color: black;
@@ -56,10 +67,15 @@ body {
 /*---------------------------------------------------------------- classes for PRODUCTS */
 
 .product-container {
-    background-color: white;
+    background-color: #fff;
     min-width: 80%;
 }
 
+/*---------------------------------------------------------------- classes for FORMS */
+
+.form-container {
+    background-color: #fff;
+}
 
 
 /* from Bulma - https://bulma.io/documentation/elements/icon/ */
