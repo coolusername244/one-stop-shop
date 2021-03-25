@@ -10,7 +10,7 @@
       "category": 1,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81HIcavdH6L._AC_UL1500_.jpg",
-      "image": "mensjeans1.jpg"
+      "image": "mensjeans1.png"
     }
   },
   {
@@ -24,7 +24,7 @@
       "category": 1,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81vKjD3xmKL._AC_UY741_.jpg",
-      "image": "mensjeans2.jpg"
+      "image": "mensjeans2.png"
     }
   },
   {
@@ -38,7 +38,7 @@
       "category": 1,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81xYWoX-lVL._AC_UL1500_.jpg",
-      "image": "mensjeans3.jpg"
+      "image": "mensjeans3.png"
     }
   },
   {
@@ -52,7 +52,7 @@
       "category": 1,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91ku11fwqDL._AC_UL1500_.jpg",
-      "image": "mensjeans4.jpg"
+      "image": "mensjeans4.png"
     }
   },
   {
@@ -66,7 +66,7 @@
       "category": 1,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91uHo1n2HaL._AC_UL1500_.jpg",
-      "image": "mensjeans5.jpg"
+      "image": "mensjeans5.png"
     }
   },
   {
@@ -80,7 +80,7 @@
       "category": 2,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81hggFz2DvL._AC_UL1500_.jpg",
-      "image": "mensshirt1.jpg"
+      "image": "mensshirt1.png"
     }
   },
   {
@@ -94,7 +94,7 @@
       "category": 2,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91QvbQrZ4eL._AC_UL1500_.jpg",
-      "image": "mensshirt2.jpg"
+      "image": "mensshirt2.png"
     }
   },
   {
@@ -108,7 +108,7 @@
       "category": 2,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/710o0VupScL._AC_UL1500_.jpg",
-      "image": "mensshirt3.jpg"
+      "image": "mensshirt3.png"
     }
   },
   {
@@ -122,7 +122,7 @@
       "category": 2,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/912zG8FYKbL._AC_UL1500_.jpg",
-      "image": "mensshirt4.jpg"
+      "image": "mensshirt4.png"
     }
   },
   {
@@ -136,7 +136,7 @@
       "category": 2,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71TKvP4nyGL._AC_UX679_.jpg",
-      "image": "mensshirt5.jpg"
+      "image": "mensshirt5.png"
     }
   },
   {
@@ -150,7 +150,7 @@
       "category": 3,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61C9TISRAkL._AC_UL1500_.jpg",
-      "image": "mensacc1.jpg"
+      "image": "mensacc1.png"
     }
   },
   {
@@ -164,7 +164,7 @@
       "category": 3,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81VcAxz05qL._AC_UL1500_.jpg",
-      "image": "mensacc2.jpg"
+      "image": "mensacc2.png"
     }
   },
   {
@@ -178,7 +178,7 @@
       "category": 3,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91tgXrB27KL._AC_UL1500_.jpg",
-      "image": "mensacc3.jpg"
+      "image": "mensacc3.png"
     }
   },
   {
@@ -192,7 +192,7 @@
       "category": 3,
       "rating": 2,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71Fxmk2GAYL._AC_UL1500_.jpg",
-      "image": "mensacc4.jpg"
+      "image": "mensacc4.png"
     }
   },
   {
@@ -206,7 +206,7 @@
       "category": 3,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71Gfs4yKvBL._AC_UL1500_.jpg",
-      "image": "mensacc5.jpg"
+      "image": "mensacc5.png"
     }
   },
   {
@@ -220,7 +220,7 @@
       "category": 4,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61OVnTWUZGL._AC_UL1500_.jpg",
-      "image": "womensjeans1.jpg"
+      "image": "womensjeans1.png"
     }
   },
   {
@@ -234,7 +234,7 @@
       "category": 4,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81UH3SnABIL._AC_UX569_.jpg",
-      "image": "womensjeans2.jpg"
+      "image": "womensjeans2.png"
     }
   },
     {
@@ -248,7 +248,7 @@
       "category": 4,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81Gp5SXQpVL._AC_UX569_.jpg",
-      "image": "womensjeans3.jpg"
+      "image": "womensjeans3.png"
     }
   },
   {
@@ -262,7 +262,7 @@
       "category": 4,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81KlD-R3eML._AC_UL1500_.jpg",
-      "image": "womensjeans4.jpg"
+      "image": "womensjeans4.png"
     }
   },
   {
@@ -276,7 +276,7 @@
       "category": 4,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81LbKIJg9GL._AC_UL1500_.jpg",
-      "image": "womensjeans5.jpg"
+      "image": "womensjeans5.png"
     }
   },
   {
@@ -290,7 +290,7 @@
       "category": 5,
       "rating": 2,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/919Hht2azRL._AC_UL1500_.jpg",
-      "image": "womensshirt1.jpg"
+      "image": "womensshirt1.png"
     }
   },
   {
@@ -304,7 +304,7 @@
       "category": 5,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61bCK51yknL._AC_UY741_.jpg",
-      "image": "womensshirt2.jpg"
+      "image": "womensshirt2.png"
     }
   },
   {
@@ -318,7 +318,7 @@
       "category": 5,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/51FIL37AVrL._AC_UL1000_.jpg",
-      "image": "womensshirt3.jpg"
+      "image": "womensshirt3.png"
     }
   },
   {
@@ -332,7 +332,7 @@
       "category": 5,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71JRvsuTZtL._AC_UL1500_.jpg",
-      "image": "womensshirt4.jpg"
+      "image": "womensshirt4.png"
     }
   },
   {
@@ -346,7 +346,7 @@
       "category": 5,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/7161jzgTcEL._AC_UL1500_.jpg",
-      "image": "womensshirt5.jpg"
+      "image": "womensshirt5.png"
     }
   },
   {
@@ -360,7 +360,7 @@
       "category": 6,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71G9OR80WtL._AC_UL1500_.jpg",
-      "image": "womensacc1.jpg"
+      "image": "womensacc1.png"
     }
   },
   {
@@ -374,7 +374,7 @@
       "category": 6,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61Bo7RLeiTL._AC_UL1000_.jpg",
-      "image": "womensacc2.jpg"
+      "image": "womensacc2.png"
     }
   },
   {
@@ -388,7 +388,7 @@
       "category": 6,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/514VxVjuT9L._AC_UL1500_.jpg",
-      "image": "womensacc3.jpg"
+      "image": "womensacc3.png"
     }
   },
   {
@@ -402,7 +402,7 @@
       "category": 6,
       "rating": 2,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71c98PkG7nL._AC_UX569_.jpg",
-      "image": "womensacc4.jpg"
+      "image": "womensacc4.png"
     }
   },
   {
@@ -416,7 +416,7 @@
       "category": 6,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91VtF7KfIfL._AC_UL1500_.jpg",
-      "image": "womensacc5.jpg"
+      "image": "womensacc5.png"
     }
   },
   {
@@ -430,7 +430,7 @@
       "category": 7,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71TxeeX673L._AC_SL1500_.jpg",
-      "image": "kitchen1.jpg"
+      "image": "kitchen1.png"
     }
   },
   {
@@ -444,7 +444,7 @@
       "category": 7,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81VXacdKaVL._AC_SL1500_.jpg",
-      "image": "kitchen2.jpg"
+      "image": "kitchen2.png"
     }
   },
   {
@@ -458,7 +458,7 @@
       "category": 7,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81XnuXLdAHL._AC_SX679_.jpg",
-      "image": "kitchen3.jpg"
+      "image": "kitchen3.png"
     }
   },
   {
@@ -472,7 +472,7 @@
       "category": 7,
       "rating": 2,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61XxhyanTuL._AC_SL1062_.jpg",
-      "image": "kitchen4.jpg"
+      "image": "kitchen4.png"
     }
   },
   {
@@ -486,7 +486,7 @@
       "category": 7,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71OoifMpDUL._AC_SX679_.jpg",
-      "image": "kitchen5.jpg"
+      "image": "kitchen5.png"
     }
   },
     {
@@ -500,7 +500,7 @@
       "category": 8,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81QvWu4RwLL._AC_SL1500_.jpg",
-      "image": "livingroom1.jpg"
+      "image": "livingroom1.png"
     }
   },
   {
@@ -514,7 +514,7 @@
       "category": 8,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81QWRUHXhDL._AC_SL1500_.jpg",
-      "image": "livingroom2.jpg"
+      "image": "livingroom2.png"
     }
   },
   {
@@ -528,7 +528,7 @@
       "category": 8,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91i0wzuMI-L._AC_SL1500_.jpg",
-      "image": "livingroom3.jpg"
+      "image": "livingroom3.png"
     }
   },
   {
@@ -542,7 +542,7 @@
       "category": 8,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71CYu5NWUQL._AC_SL1500_.jpg",
-      "image": "livingroom4.jpg"
+      "image": "livingroom4.png"
     }
   },
   {
@@ -556,7 +556,7 @@
       "category": 8,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71uAoDj%2BX9L._AC_SL1500_.jpg",
-      "image": "livingroom5.jpg"
+      "image": "livingroom5.png"
     }
   },
   {
@@ -570,7 +570,7 @@
       "category": 9,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/A17EgK-CYyL._AC_SX679_.jpg",
-      "image": "bedroom1.jpg"
+      "image": "bedroom1.png"
     }
   },
   {
@@ -584,7 +584,7 @@
       "category": 9,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71nNeXcnuuL._AC_SL1500_.jpg",
-      "image": "bedroom2.jpg"
+      "image": "bedroom2.png"
     }
   },
   {
@@ -598,7 +598,7 @@
       "category": 9,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61IzB-Y2K1L._AC_SX679_.jpg",
-      "image": "bedroom3.jpg"
+      "image": "bedroom3.png"
     }
   },
   {
@@ -612,7 +612,7 @@
       "category": 9,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81oAS4a4OhL._AC_SX679_.jpg",
-      "image": "bedroom4.jpg"
+      "image": "bedroom4.png"
     }
   },
   {
@@ -626,7 +626,7 @@
       "category": 9,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/516PP4JiCsL._AC_SX679_.jpg",
-      "image": "bedroom5.jpg"
+      "image": "bedroom5.png"
     }
   },
   {
@@ -640,7 +640,7 @@
       "category": 10,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/816ZQ51AieL._AC_SY450_.jpg",
-      "image": "tv1.jpg"
+      "image": "tv1.png"
     }
   },
   {
@@ -654,7 +654,7 @@
       "category": 10,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91tMNAWWsPL._AC_SL1500_.jpg",
-      "image": "tv2.jpg"
+      "image": "tv2.png"
     }
   },
   {
@@ -668,7 +668,7 @@
       "category": 10,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61QTsCYCCVL._AC_SL1500_.jpg",
-      "image": "tv3.jpg"
+      "image": "tv3.png"
     }
   },
   {
@@ -682,7 +682,7 @@
       "category": 10,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91FcuuZwcrL._AC_SX450_.jpg",
-      "image": "tv4.jpg"
+      "image": "tv4.png"
     }
   },
   {
@@ -696,7 +696,7 @@
       "category": 10,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81JERLZNprL._AC_SX679_.jpg",
-      "image": "tv5.jpg"
+      "image": "tv5.png"
     }
   },
   {
@@ -710,7 +710,7 @@
       "category": 11,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61Q2hRo4BCL._SL1200_.jpg",
-      "image": "gc1.jpg"
+      "image": "gc1.png"
     }
   },
   {
@@ -724,7 +724,7 @@
       "category": 11,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/715RBdgZtHL._SL1500_.jpg",
-      "image": "gc2.jpg"
+      "image": "gc2.png"
     }
   },
   {
@@ -738,7 +738,7 @@
       "category": 11,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/619BkvKW35L._SL1500_.jpg",
-      "image": "gc3.jpg"
+      "image": "gc3.png"
     }
   },
   {
@@ -752,7 +752,7 @@
       "category": 11,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61DndcbbqQL._SL1500_.jpg",
-      "image": "gc4.jpg"
+      "image": "gc4.png"
     }
   },
   {
@@ -766,7 +766,7 @@
       "category": 11,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71WVhJbTslL._SL1500_.jpg",
-      "image": "gc5.jpg"
+      "image": "gc5.png"
     }
   },
   {
@@ -780,7 +780,7 @@
       "category": 12,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/812MizmMvkL._AC_SL1500_.jpg",
-      "image": "laptop1.jpg"
+      "image": "laptop1.png"
     }
   },
   {
@@ -794,7 +794,7 @@
       "category": 12,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91shKLxoedL._AC_SL1500_.jpg",
-      "image": "laptop2.jpg"
+      "image": "laptop2.png"
     }
   },
   {
@@ -808,7 +808,7 @@
       "category": 12,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg",
-      "image": "laptop3.jpg"
+      "image": "laptop3.png"
     }
   },
   {
@@ -822,7 +822,7 @@
       "category": 12,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71jG%2Be7roXL._AC_SL1500_.jpg",
-      "image": "laptop4.jpg"
+      "image": "laptop4.png"
     }
   },
   {
@@ -836,7 +836,7 @@
       "category": 12,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71pC69I3lzL._AC_SL1500_.jpg",
-      "image": "laptop5.jpg"
+      "image": "laptop5.png"
     }
   }
 ]
