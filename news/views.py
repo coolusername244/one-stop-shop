@@ -37,7 +37,7 @@ def add_news(request):
             instance = add_news_form.save(commit=False)
             instance.author = request.user
             instance.save()
-            messages.success(request, 'News article added successfully!')
+            messages.info(request, 'News article added successfully!')
             return redirect('news')
     else:
         add_news_form = forms.NewsForm()
@@ -66,7 +66,7 @@ def edit_news(request, news_id):
         form = NewsForm(request.POST, request.FILES, instance=news)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Article Updated Successfully!')
+            messages.info(request, 'Article Updated Successfully!')
             return redirect('news')
         else:
             messages.error(request,
@@ -96,5 +96,5 @@ def delete_news(request, news_id):
 
     product = get_object_or_404(News, pk=news_id)
     product.delete()
-    messages.success(request, 'Article has been removed from the board!')
+    messages.info(request, 'Article has been removed from the board!')
     return redirect(reverse('news'))
