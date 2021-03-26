@@ -45,7 +45,13 @@ def add_news(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_news(request, news_id):
+
+    if not request.user.is_superuser:
+        messages.error(request,
+                       'You do not have permission to carry out this task')
+        return redirect(reverse('news'))
 
     news = get_object_or_404(News, pk=news_id)
     if request.method == 'POST':
@@ -68,3 +74,17 @@ def edit_news(request, news_id):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_news(request, news_id):
+
+    if not request.user.is_superuser:
+        messages.error(request,
+                       'You do not have permission to carry out this task')
+        return redirect(reverse('news'))
+
+    product = get_object_or_404(News, pk=news_id)
+    product.delete()
+    messages.success(request, 'Article has been removed from the board!')
+    return redirect(reverse('news'))
