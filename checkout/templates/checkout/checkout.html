@@ -19,17 +19,17 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container product-container">
+    <div class="container content-container">
         <div class="row">
             <div class="col">
-                <h2 class="my-4">Checkout</h2>
+                <h2 class="my-4 text-center">Checkout</h2>
                 <hr>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 col-lg-6 order-lg-last mb-5">
-                <p class="text-muted">Order Summary ({{ product_count }})</p>
+                <p class="text-muted text-center">Order Summary ({{ product_count }})</p>
                 <div class="row">
                     <div class="col-7 offset-2">
                         <p class="mb-1 mt-0 small text-muted">Item</p>
@@ -50,9 +50,9 @@
                             </a>
                         </div>
                         <div class="col-7">
-                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                            <p class="my-0 small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
-                            <p class="my-0 small text-muted">Qty: {{ item.quantity }}</p>
+                            <p class="my-1"><strong>{{ item.product.name }}</strong></p>
+                            <p class="my-1 small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
+                            <p class="mb-3 small text-muted">Qty: {{ item.quantity }}</p>
                         </div>
                         <div class="col-3 text-right">
                             <p class="my-0 small text-muted">${{ item.product.price | calc_subtotal:item.quantity }}</p>
@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6">
-                <p class="text-muted">Please fill out the form below to complete your order</p>
+                <p class="text-muted text-center">Please fill out the form below to complete your order</p>
                 <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                     {% csrf_token %}
                     <fieldset class="rounded px-3 mb-5">
@@ -110,8 +110,7 @@
                         <!-- pass the client secret to the view so we can get the payment intent ID -->
                         <input type="hidden" value="{{ client_secret}}" name="client_secret">
                     </fieldset>
-
-                    <div class="submit-button text-right mt-5 mb-2">                    
+                    <div class="submit-button text-center mt-5 mb-2">                    
 						<a href="{% url 'view_shopping_bag' %}" class="btn btn-outline-black rounded-0">
 							<span class="icon">
 								<i class="fas fa-chevron-left"></i>
