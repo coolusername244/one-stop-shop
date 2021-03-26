@@ -1,13 +1,16 @@
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+
 from . import forms
 from .models import News
 from .forms import NewsForm
 
 
 def news(request):
-
+    """
+    A view to allow users to view all news updates
+    """
     news = News.objects.all().order_by('-date')
 
     template = 'news/news.html'
@@ -20,7 +23,9 @@ def news(request):
 
 @login_required
 def add_news(request):
-
+    """
+    A view that allows superusers to add news articles
+    """
     if not request.user.is_superuser:
         messages.error(request,
                        'You do not have permission to carry out this task.')
@@ -47,6 +52,9 @@ def add_news(request):
 
 @login_required
 def edit_news(request, news_id):
+    """
+    A view that allows superusers to edit news articles
+    """
 
     if not request.user.is_superuser:
         messages.error(request,
@@ -78,7 +86,9 @@ def edit_news(request, news_id):
 
 @login_required
 def delete_news(request, news_id):
-
+    """
+    A view that allows superusers to delete news articles
+    """
     if not request.user.is_superuser:
         messages.error(request,
                        'You do not have permission to carry out this task')

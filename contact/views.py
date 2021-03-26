@@ -4,7 +4,9 @@ from . import forms
 
 
 def contact(request):
-
+    """
+    This view will allow users to send messages to site admin
+    """
     if request.method == 'POST':
         contact_form = forms.ContactForm(request.POST)
         if contact_form.is_valid():

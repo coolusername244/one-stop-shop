@@ -10,6 +10,9 @@ from checkout.models import Order
 
 @login_required
 def profile(request):
+    """
+    This is a view that will return the profile page to the user
+    """
     profile = get_object_or_404(UserProfile, user=request.user)
 
     if request.method == 'POST':
@@ -32,6 +35,9 @@ def profile(request):
 
 
 def order_history(request, order_number):
+    """
+    This is a view that retrieves all of the users order history
+    """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (

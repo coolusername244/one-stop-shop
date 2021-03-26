@@ -39,6 +39,10 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    """
+    This view is for rendering all of the bag items into the checkout
+    and allows users to pay for products
+    """
     stripe_public_key = os.environ.get('STRIPE_PUBLIC_KEY')
     stripe_secret_key = os.environ.get('STRIPE_SECRET_KEY')
 
@@ -143,8 +147,9 @@ def checkout(request):
 
 
 def checkout_complete(request, order_number):
-    # This is a view that will handle successful checkouts
-
+    """
+    This is a view that will handle successful checkouts
+    """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 

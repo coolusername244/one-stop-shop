@@ -9,8 +9,10 @@ from .forms import ProductForm
 
 
 def products_library(request):
-    # This is the view that will return all of the products
-    # and have sorting and searching functions
+    """
+    This is the view that will return all of the products
+    and have sorting and searching functions
+    """
 
     products = Product.objects.all()
     query = None
@@ -63,8 +65,10 @@ def products_library(request):
 
 
 def single_product_detail(request, product_id):
-    # This is a view that will return the information for an
-    # individual product
+    """
+    This is a view that will return the information for an
+    individual product
+    """
 
     product = get_object_or_404(Product, pk=product_id)
 
@@ -77,6 +81,9 @@ def single_product_detail(request, product_id):
 
 @login_required
 def add_a_product(request):
+    """
+    A view that allows superusers to add a product to the site
+    """
 
     if not request.user.is_superuser:
         messages.error(request,
@@ -106,6 +113,9 @@ def add_a_product(request):
 
 @login_required
 def edit_a_product(request, product_id):
+    """
+    A view that allows superusers to eit an item in the store
+    """
 
     if not request.user.is_superuser:
         messages.error(request,
@@ -138,6 +148,9 @@ def edit_a_product(request, product_id):
 
 @login_required
 def delete_a_product(request, product_id):
+    """
+    A view to allow superusers to delete items from the store
+    """
 
     if not request.user.is_superuser:
         messages.error(request,

@@ -5,15 +5,18 @@ from django.contrib import messages
 from products.models import Product
 
 
-# Create your views here.
 def view_shopping_bag(request):
-    # This is a view that returns the shopping bag to the user
-
+    """
+    This is a view that returns the shopping bag to the user
+    """
     return render(request, 'bag/shopping-bag.html')
 
 
 def add_item_to_bag(request, item_id):
-    # This is a view that will allow users to add items to the shopping bag
+    """
+    This is a view that will allow users to add items to the shopping bag
+    
+    """
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -59,8 +62,10 @@ def add_item_to_bag(request, item_id):
 
 
 def modify_bag(request, item_id):
-    # This is a view that will allow users change the quantity of items in the
-    # shopping bag
+    """
+    This is a view that will allow users change the quantity of items in the
+    shopping bag
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -100,7 +105,9 @@ def modify_bag(request, item_id):
 
 
 def delete_item_from_bag(request, item_id):
-    # This is a view that will allow users to delete an item in the bag
+    """
+    This is a view that will allow users to delete an item in the bag
+    """
     try:
         product = get_object_or_404(Product, pk=item_id)
         size = None
