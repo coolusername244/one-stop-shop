@@ -10,7 +10,8 @@
       "category": 1,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81HIcavdH6L._AC_UL1500_.jpg",
-      "image": "mensjeans1.png"
+      "image": "mensjeans1.png",
+      "has_sizes": true
     }
   },
   {
@@ -24,7 +25,8 @@
       "category": 1,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81vKjD3xmKL._AC_UY741_.jpg",
-      "image": "mensjeans2.png"
+      "image": "mensjeans2.png",
+      "has_sizes": true
     }
   },
   {
@@ -38,7 +40,8 @@
       "category": 1,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81xYWoX-lVL._AC_UL1500_.jpg",
-      "image": "mensjeans3.png"
+      "image": "mensjeans3.png",
+      "has_sizes": true
     }
   },
   {
@@ -52,7 +55,8 @@
       "category": 1,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91ku11fwqDL._AC_UL1500_.jpg",
-      "image": "mensjeans4.png"
+      "image": "mensjeans4.png",
+      "has_sizes": true
     }
   },
   {
@@ -66,7 +70,8 @@
       "category": 1,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91uHo1n2HaL._AC_UL1500_.jpg",
-      "image": "mensjeans5.png"
+      "image": "mensjeans5.png",
+      "has_sizes": true
     }
   },
   {
@@ -80,7 +85,8 @@
       "category": 2,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81hggFz2DvL._AC_UL1500_.jpg",
-      "image": "mensshirt1.png"
+      "image": "mensshirt1.png",
+      "has_sizes": true
     }
   },
   {
@@ -94,7 +100,8 @@
       "category": 2,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/91QvbQrZ4eL._AC_UL1500_.jpg",
-      "image": "mensshirt2.png"
+      "image": "mensshirt2.png",
+      "has_sizes": true
     }
   },
   {
@@ -108,7 +115,8 @@
       "category": 2,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/710o0VupScL._AC_UL1500_.jpg",
-      "image": "mensshirt3.png"
+      "image": "mensshirt3.png",
+      "has_sizes": true
     }
   },
   {
@@ -122,7 +130,8 @@
       "category": 2,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/912zG8FYKbL._AC_UL1500_.jpg",
-      "image": "mensshirt4.png"
+      "image": "mensshirt4.png",
+      "has_sizes": true
     }
   },
   {
@@ -136,7 +145,8 @@
       "category": 2,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71TKvP4nyGL._AC_UX679_.jpg",
-      "image": "mensshirt5.png"
+      "image": "mensshirt5.png",
+      "has_sizes": true
     }
   },
   {
@@ -220,7 +230,8 @@
       "category": 4,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61OVnTWUZGL._AC_UL1500_.jpg",
-      "image": "womensjeans1.png"
+      "image": "womensjeans1.png",
+      "has_sizes": true
     }
   },
   {
@@ -234,7 +245,8 @@
       "category": 4,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81UH3SnABIL._AC_UX569_.jpg",
-      "image": "womensjeans2.png"
+      "image": "womensjeans2.png",
+      "has_sizes": true
     }
   },
     {
@@ -248,7 +260,8 @@
       "category": 4,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81Gp5SXQpVL._AC_UX569_.jpg",
-      "image": "womensjeans3.png"
+      "image": "womensjeans3.png",
+      "has_sizes": true
     }
   },
   {
@@ -262,7 +275,8 @@
       "category": 4,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81KlD-R3eML._AC_UL1500_.jpg",
-      "image": "womensjeans4.png"
+      "image": "womensjeans4.png",
+      "has_sizes": true
     }
   },
   {
@@ -276,7 +290,8 @@
       "category": 4,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/81LbKIJg9GL._AC_UL1500_.jpg",
-      "image": "womensjeans5.png"
+      "image": "womensjeans5.png",
+      "has_sizes": true
     }
   },
   {
@@ -290,7 +305,8 @@
       "category": 5,
       "rating": 2,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/919Hht2azRL._AC_UL1500_.jpg",
-      "image": "womensshirt1.png"
+      "image": "womensshirt1.png",
+      "has_sizes": true
     }
   },
   {
@@ -304,7 +320,8 @@
       "category": 5,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/61bCK51yknL._AC_UY741_.jpg",
-      "image": "womensshirt2.png"
+      "image": "womensshirt2.png",
+      "has_sizes": true
     }
   },
   {
@@ -318,7 +335,8 @@
       "category": 5,
       "rating": 3,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/51FIL37AVrL._AC_UL1000_.jpg",
-      "image": "womensshirt3.png"
+      "image": "womensshirt3.png",
+      "has_sizes": true
     }
   },
   {
@@ -332,7 +350,8 @@
       "category": 5,
       "rating": 4,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/71JRvsuTZtL._AC_UL1500_.jpg",
-      "image": "womensshirt4.png"
+      "image": "womensshirt4.png",
+      "has_sizes": true
     }
   },
   {
@@ -346,7 +365,8 @@
       "category": 5,
       "rating": 5,
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/7161jzgTcEL._AC_UL1500_.jpg",
-      "image": "womensshirt5.png"
+      "image": "womensshirt5.png",
+      "has_sizes": true
     }
   },
   {
