@@ -16,30 +16,34 @@
 {% endblock %}
 
 {% block content %}
-
-{% for n in news %}
-    <div>
-        <h2>
-            <a href="">
-                {{ n.title}}
-            </a>
-        </h2>
-        {% if n.image %}
-            <img src="{{ n.image.url }}" alt="">
-        {% else %}
-            No Image
-        {% endif %}
-        <p>
-            {{ n.body }}
-        </p>
-        <p>
-            {{ n.date }}
-        </p>
-        <p>
-            {{ n.author }}
-        </p>
-    </div>
-    <hr>
-{% endfor %}
-
+<div class="container content-container">
+    {% for n in news %}
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="mt-3">{{ n.title|title }}</h2>
+                <h6 class="text-muted">Published By: {{ n.author|title }} on {{ n.date }}</h6>
+                {% if user.is_superuser %}
+                    <a href="">Edit</a> |
+                    <a href="" class="text-danger">Delete</a>
+                {% endif %}
+                <hr class="w-50">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 offset-md-1 my-auto py-5 text-center">
+                <p class="">
+                    {{ n.body }}
+                </p>  
+            </div>
+            <div class="col-md-3 offset-md-1 my-3 text-center">
+                {% if n.image %}
+                    <img class="news-image" src="{{ n.image.url }}" alt="{{ image.name }}">
+                {% else %}
+                    <img class="news-image" src="{{ MEDIA_URL }}default_news.png" alt="{{ image.name }}">
+                {% endif %}
+            </div>
+        </div>
+        <hr class="w-60">
+    {% endfor %}
+</div>
 {% endblock %}
