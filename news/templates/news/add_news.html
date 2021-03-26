@@ -17,12 +17,17 @@
 
 {% block content %}
 
-<div class="container-fluid">
-    <form method="POST" action="{% url 'add_news' %}" class="form mb-2" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ add_news_form | crispy }}
-        <button class="btn btn-black rounded-0" type="submit">Add Article</button>
-    </form>
+<div class="container form-container py-5">
+    <h2 class="text-center">Add News Buletin!</h2>
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+            <form method="POST" action="{% url 'add_news' %}" class="form text-center mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ add_news_form | crispy }}
+                <button class="btn form-button" type="submit">Add Article <i class="fas fa-newspaper"></i></button>
+            </form>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
