@@ -72,7 +72,7 @@ def modify_bag(request, item_id):
     if size:
         if quantity > 0:
             bag[item_id]['items_by_size'][size] = quantity
-            messages.success(
+            messages.info(
                 request,
                 f'Updated size {size.upper()} {product.name} quantity to'
                 f'{bag[item_id]["items_by_size"][size]}'
@@ -81,19 +81,19 @@ def modify_bag(request, item_id):
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
                 bag.pop(item_id)
-                messages.success(
+                messages.info(
                     request,
                     f'Removed size {size.upper()} {product.name} from your bag'
                     )
     else:
         if quantity > 0:
             bag[item_id] = quantity
-            messages.success(
+            messages.info(
                 request,
                 f'Updated {product.name} quantity to {bag[item_id]}')
         else:
             bag.pop(item_id)
-            messages.success(request, f'Removed {product.name} from your bag')
+            messages.info(request, f'Removed {product.name} from your bag')
 
     request.session['bag'] = bag
     return redirect(reverse('view_shopping_bag'))
@@ -112,12 +112,12 @@ def delete_item_from_bag(request, item_id):
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
                 bag.pop(item_id)
-            messages.success(
+            messages.info(
                 request,
                 f'Removed size {size.upper()} {product.name} from your bag')
         else:
             bag.pop(item_id)
-            messages.success(request, f'Removed {product.name} from your bag')
+            messages.info(request, f'Removed {product.name} from your bag')
 
         request.session['bag'] = bag
         return HttpResponse(status=200)
