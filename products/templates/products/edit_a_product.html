@@ -16,12 +16,11 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
     <div class="container form-container">
         <div class="row">
             <div class="col-12 col-md-6 offset-md-3 text-center">
                 <hr>
-                <h2 class="logo-font mb-4">Product Management</h2>
+                <h2 class="mb-4">Product Management</h2>
                 <h5 class="text-muted">Edit {{ product.name }}</h5>
                 <hr>
             </div>
@@ -39,7 +38,7 @@
                     {% endfor %}
                     <div class="text-center">
                         <a href="{ url 'products' }" class="btn btn-outline-black rounded-0">Cancel</a>
-                        <button class="btn form-button rounded-0" type="submit">Update This Product</button>
+                        <button class="btn form-button" type="submit">Update This Product</button>
                     </div>
                 </form>
             </div>
