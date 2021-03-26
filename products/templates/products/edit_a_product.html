@@ -21,13 +21,13 @@
             <div class="col-12 col-md-6 offset-md-3 text-center">
                 <hr>
                 <h2 class="mb-4">Product Management</h2>
-                <h5 class="text-muted">Edit {{ product.name }}</h5>
+                <h5 class="text-muted">You are editing - {{ product.name|upper }}</h5>
                 <hr>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-md-6 offset-md-3 text-center">
-                <form method="POST" action="{% url 'edit_a_product' product.id %}" class="form mb-2" enctype="multipart/form-data">
+                <form method="POST" action="{% url 'edit_a_product' product.id %}" class="form mb-4" enctype="multipart/form-data">
                     {% csrf_token %}
                     {% for field in form %}
                         {% if field.name != 'image' %}
