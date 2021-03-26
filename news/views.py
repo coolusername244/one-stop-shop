@@ -1,8 +1,9 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from . import forms
 from .models import News
+from .forms import NewsForm
 
 
 def news(request):
@@ -39,6 +40,31 @@ def add_news(request):
     template = 'news/add_news.html'
     context = {
         'add_news_form': add_news_form,
+    }
+
+    return render(request, template, context)
+
+
+def edit_news(request, news_id):
+
+    news = get_object_or_404(News, pk=news_id)
+    if request.method == 'POST':
+        form = NewsForm(request.POST, request.FILES, instance=news)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Article Updated Successfully!')
+            return redirect('news')
+        else:
+            messages.error(request,
+                           'Failed to update. Check the form is valid.')
+    else:
+        form = NewsForm(instance=news)
+        messages.info(request, f'You are about to edit { news.title }')
+
+    template = 'news/edit_news.html'
+    context = {
+        'form': form,
+        'news': news
     }
 
     return render(request, template, context)
