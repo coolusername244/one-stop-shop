@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %}
+    Add News Article
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+<div class="container form-container py-5">
+    <h2 class="text-center">Edit News Buletin!</h2>
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+            <form method="POST" action="{% url 'edit_news' news.id %}" class="form text-center mb-2" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form | crispy }}
+                <button class="btn form-button" type="submit">Edit Article <i class="fas fa-newspaper"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
