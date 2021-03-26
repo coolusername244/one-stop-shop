@@ -23,7 +23,7 @@
                 <h2 class="mt-3">{{ n.title|title }}</h2>
                 <h6 class="text-muted">Published By: {{ n.author|title }} on {{ n.date }}</h6>
                 {% if user.is_superuser %}
-                    <a href="">Edit</a> |
+                    <a href="{% url 'edit_news' news_id=n.id %}">Edit</a> |
                     <a href="" class="text-danger">Delete</a>
                 {% endif %}
                 <hr class="w-50">
