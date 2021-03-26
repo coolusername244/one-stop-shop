@@ -28,7 +28,19 @@ body {
     border: solid black 1px;
 }
 
-/*---------------------------------------------------------------- classes for TEXT COLORS */
+/*---------------------------------------------------------------- classes for HOME PAGE  */
+
+.home-background {
+    background: url('/media/hero-homepage.png') no-repeat center fixed;
+    background-size: cover;
+    height: calc(100vh - 144px);
+}
+
+.home-content {
+    background-color: rgba(255,255,255,0.5);
+}
+
+/*---------------------------------------------------------------- classes for TEXT */
 
 .text-black {
     color: #000 !important;
@@ -37,6 +49,10 @@ body {
 .text-white {
     color: #fff !important;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*---------------------------------------------------------------- classes for BUTTONS */
@@ -64,37 +80,6 @@ body {
     min-width: 260px;
 }
 
-/*---------------------------------------------------------------- classes for PRODUCTS */
-
-.product-container {
-    background-color: #fff;
-    min-width: 80%;
-}
-
-/*---------------------------------------------------------------- classes for FORMS */
-
-.form-container {
-    background-color: #fff;
-}
-
-
-/* from Bulma - https://bulma.io/documentation/elements/icon/ */
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.main-logo-link {
-    width: fit-content;
-}
-
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -105,8 +90,10 @@ body {
     color: white;
 }
 
-.border-black {
-    border: 1px solid black !important;
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
 }
 
 .btt-button {
@@ -117,13 +104,48 @@ body {
     right: 10px;
 }
 
-.btt-link,
-.update-link,
-.remove-item {
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
     cursor: pointer;
 }
 
-/* Toasts */
+/*---------------------------------------------------------------- classes for CONTAINERS */
+
+.product-container {
+    background-color: #fff;
+    min-width: 80%;
+    max-width: 80%;
+}
+
+.form-container {
+    background-color: #fff;
+}
+
+.content-container {
+    background-color: #fff;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 100%; 
+}
+
+.info-container {
+    background-color: #fff;
+    min-width: 80%;
+    min-height: 100%;
+    border: solid black 1px;
+}
+
+/*---------------------------------------------------------------- classes for TOASTS */
 
 .message-container {
     position: fixed;
@@ -140,6 +162,17 @@ body {
     height: 2px;
 }
 
+/*---------------------------------------------------------------- classes for EXTRAS */
+
+/* from Bulma - https://bulma.io/documentation/elements/icon/ */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
@@ -153,13 +186,6 @@ body {
 }
 
 /* Convenience classes - colors copied from Bootstrap */
-.arrow-primary {
-    border-bottom-color: #007bff !important;
-}
-
-.arrow-secondary {
-    border-bottom-color: #6c757d !important;
-}
 
 .arrow-success {
     border-bottom-color: #28a745 !important;
@@ -169,42 +195,24 @@ body {
     border-bottom-color: #dc3545 !important;
 }
 
-.arrow-warning {
-    border-bottom-color: #ffc107 !important;
-}
-
 .arrow-info {
     border-bottom-color: #17a2b8 !important;
 }
 
-.arrow-light {
-    border-bottom-color: #f8f9fa !important;
+.border-black {
+    border: 1px solid black !important;
 }
 
-.arrow-dark {
-    border-bottom-color: #343a40 !important;
+.news-image {
+    max-height: 250px;
+    max-width: 250px;
+    border: solid black 1px;
 }
 
 .bag-window{
     height: 150px;
     overflow-x: hidden;
     overflow-y: auto;
-}
-
-
-.btn-file {
-    position: relative;
-    overflow: hidden;
-}
-
-.btn-file input[type="file"] {
-    position: absolute;
-    top: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 0;
-    cursor: pointer;
 }
 
 .custom-checkbox .custom-control-label::before {
