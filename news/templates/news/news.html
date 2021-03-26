@@ -24,7 +24,7 @@
                 <h6 class="text-muted">Published By: {{ n.author|title }} on {{ n.date }}</h6>
                 {% if user.is_superuser %}
                     <a href="{% url 'edit_news' news_id=n.id %}">Edit</a> |
-                    <a href="" class="text-danger">Delete</a>
+                    <a href="{% url 'delete_news' news_id=n.id %}" class="text-danger">Delete</a>
                 {% endif %}
                 <hr class="w-50">
             </div>
