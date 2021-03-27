@@ -28,7 +28,7 @@ SECRET_KEY = 'k4yc52!3-$g=*=h!b-8=0i^dlk%9oz!019%35z(ln()fcjw2r0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['coolusername244-one-stop-shop', 'localhost']
+ALLOWED_HOSTS = ['coolusername244-one-stop-shop.herokuapp.com', 'localhost']
 
 
 # Application definition
