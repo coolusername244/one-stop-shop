@@ -182,7 +182,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#credit to code institute for aws code
+# credit to code institute for aws code
 if 'USE_AWS' in os.environ:
     # cache control
     AWS_S3_OBJECT_PARAMETERS = {
@@ -210,4 +210,5 @@ if 'USE_AWS' in os.environ:
 STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.environ.get('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.environ.get('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'onestopshop@example.com'
