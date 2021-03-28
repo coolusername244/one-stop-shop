@@ -67,7 +67,13 @@
                             <div>
                                 <i class="fas fa-user-circle fa-2x"></i>
                             </div>
-                            <p class="my-0">My Account</p>
+                            <p class="my-0">
+                                {% if user.is_authenticated %}
+                                    My Account
+                                {% else %}
+                                    Account
+                                {% endif %}
+                                </p>
                         </div>
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="user-options">
