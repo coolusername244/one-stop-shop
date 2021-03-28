@@ -15,7 +15,6 @@ def view_shopping_bag(request):
 def add_item_to_bag(request, item_id):
     """
     This is a view that will allow users to add items to the shopping bag
-    
     """
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
