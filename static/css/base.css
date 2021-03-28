@@ -5,7 +5,8 @@ html {
 }
 
 body {
-    background-color: #DFDFDF;
+    background: url('/media/hero-homepage.png') no-repeat center fixed;
+    background-size: cover;
     height: calc(100vh - 164px);
     font-family: 'Libre Franklin', sans-serif;
 }
@@ -31,8 +32,6 @@ body {
 /*---------------------------------------------------------------- classes for HOME PAGE  */
 
 .home-background {
-    background: url('/media/hero-homepage.png') no-repeat center fixed;
-    background-size: cover;
     height: calc(100vh - 144px);
 }
 
@@ -209,6 +208,7 @@ body {
     border: solid black 1px;
 }
 
+/* bag window from code institute */ 
 .bag-window{
     height: 150px;
     overflow-x: hidden;
@@ -244,10 +244,44 @@ body {
 /* push the body down on smaller screens from underneath the navbar */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 85px;
+        padding-top: 4rem;
     }
 
     body {
         height: calc(100vh - 100px);
+    }
+
+    .checkout-buttons span {
+        font-size: 1rem;
+    }
+    .home-content h1,
+    .home-content h4 {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        padding: 0.1rem;
+        font-size: small;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1.15rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    .shopping-page h2 {
+        font-size: x-large;
+    }
+
+    .shopping-page h6 {
+        font-size: small;
+    }
+
+    .shopping-page h4 {
+        font-size: medium;
     }
 }
