@@ -72,22 +72,37 @@ All of the wireframes for this project are included below, click the arrow to re
 ### User Stories
 
 
- - ### Viewing and Navigation
+- ### Viewing and Navigation
 
 | USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
 | - | - | - | - | - |
 | 1 | USER | View all products that the store has to offer | Quickly see if there are any products id like to purchase | As soon as the user lands on the home page, they are greeted with some text and a button that will take them to the list of allavailable products
 | 2 | USER | View individual products and their details | See all info regarding a specific item | When the user clicks on the image of a product they like the looks of, they will be redirected to the single-product-detail page
 | 3 | USER | Easily see the total of all products in the basket for purchase | To avoid spending too much! | Each time the user updates the bag items, the price is automatically calculated and displayed to the user as well as their shopping bag item total
+
+- ### Registration and Accounts
+
+| USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
+| - | - | - | - | - |
 | 4 | NEW USER | Easily be able to register for an account | View my account details and info | Added a button labelled 'Account', when the user clicks, they will be shown 2 options, Register or Login. Clicking Register will take the user to the profile registration form.
 | 5 | RETURNING USER | Easily be able to log in and out of my account | Access my personalised account | The 'Account' button will allow users to also log in and out.
 | 6 | RETURNING USER | Easily recover my password if I have forgottten it | Regain access to my account | Enabled (through Django AllAuth) for the user to click the 'Forgot Password' link on the Sign In page. Clicking this will mean that the user will have to enter their email address connected to their profile and will recieve an email with instructions to reset the password
 | 7 | NEW USER | Receive an email confirmation after successful registration | To ensure that the process has been successful | Once the user has filled out the registration form correctly, the user will be sent a verification email with a link to follow to activate the account. This has been achieved with Django AllAuth.
 | 8 | RETURNING USER | Have a personalised account profile | Centralise all of my order history, delivery info and card info | Customer order histories are located on their profile page. They are shown a smaller version of this and are able to click the link for a full view of a particular order.
+
+- ### Sorting and Searhing
+
+| USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
+| - | - | - | - | - |
 | 9 | USER | Sort the list of products | By highest rated, price etc | Installed a filter located at the top of the products view. Users are able to organise by - Price, Category, Rating or Name
 | 10 | USER | Easily filter products by category | So I can find the best products in the category I wish to view | Made it so the category of each item is visible and clickable. Users can click on the category name and the products will be filtered to that specific one.
 | 11 | USER | Search for a product by name or description | So I can view a product I know the name of | Included a search bar that is located at the top of each page. Once users have entered a search term, the function will search all of the product info for the users query. The user is also shown the number of results and their search term, just incase they have made a typo, its easily seen. 
 | 12 | USER | Be presented with the results of what I have searched for | So I can see if the product I wish to purchase is available | All of the results that have been given from the search are listed on the page, the same way they are on the products page.
+
+- ### Purchasing and Checkout
+
+| USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
+| - | - | - | - | - |
 | 13 | USER | Easily select the quantity and/or size of item | To ensure that I know what size/quantity I am buying | When looking at individual items, users have the option to chose how many units they want (1-90) and if the item has a size i.e. clothing, they can pick from a dropdown menu. They are also able to change the unit quantity while reviewing the bag before checkout. 
 | 14 | USER | View items that are in my bag | So I can see if I am missing anything | Each time an item is added they will be shown a small window with shopping bag contents and also users are able to click the shopping cart link to review products before payment and adjust if needed. 
 | 15 | USER | Adjust the item quantity in the bag | In case I feel the amount isnt right | As above
@@ -95,6 +110,11 @@ All of the wireframes for this project are included below, click the arrow to re
 | 17 | USER | Have an option to save delivery info to profile | To make future checkouts faster | On the users profile page, they will be presented with a form for their delivery information to be filled out. Once the user updates and clicks save, they can go to the checkout an their info will be prefilled.
 | 18 | USER | view order confirmation after checkout | To ensure that everything has worked and I now sit back until delivery | Upon successful payment, the user will be shown a confirmation of their order as well as seeing a mesage displayed re email confirmation. 
 | 19 | USER | Feel like the store has a robust checkout process | Feel safe spending money online | Using [Stripes](https://stripe.com) elements, the user will be given a secure feeling as it is filled out and reacting as needed
+
+- ### Admin 
+
+| USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
+| - | - | - | - | - |
 | 20 | Administrator | Add a product | Keep the store up to date | Installed a button which is located within the account dropdown menu - The button will only be visible to superuser
 | 21 | Administrator | Edit a product | Keep the store up to date | Added an edit button next to items that is only visible to superusers
 | 22 | Administrator | Delete a product | Keep the store up to date | Added a delete button next to items that is only visible to superusers
