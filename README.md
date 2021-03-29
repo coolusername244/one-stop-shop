@@ -79,30 +79,15 @@ USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A D
 1 | USER | View all products that the store has to offer | Quickly see if there are any products id like to purchase | As soon as the user lands on the home page, they are greeted with some text and a button that will take them to the list of allavailable products
 2 | USER | View individual products and their details | See all info regarding a specific item | When the user clicks on the image of a product they like the looks of, they will be redirected to the single-product-detail page
 3 | USER | Easily see the total of all products in the basket for purchase | To avoid spending too much! | Each time the user updates the bag items, the price is automatically calculated and displayed to the user as well as their shopping bag item total
-
-- ### Registration and User Profiles
-
-USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
-- | - | - | - | - |
 4 | NEW USER | Easily be able to register for an account | View my account details and info | Added a button labelled 'Account', when the user clicks, they will be shown 2 options, Register or Login. Clicking Register will take the user to the profile registration form.
 5 | RETURNING USER | Easily be able to log in and out of my account | Access my personalised account | The 'Account' button will allow users to also log in and out.
 6 | RETURNING USER | Easily recover my password if I have forgottten it | Regain access to my account | Enabled (through Django AllAuth) for the user to click the 'Forgot Password' link on the Sign In page. Clicking this will mean that the user will have to enter their email address connected to their profile and will recieve an email with instructions to reset the password
 7 | NEW USER | Receive an email confirmation after successful registration | To ensure that the process has been successful | Once the user has filled out the registration form correctly, the user will be sent a verification email with a link to follow to activate the account. This has been achieved with Django AllAuth.
 8 | RETURNING USER | Have a personalised account profile | Centralise all of my order history, delivery info and card info | Customer order histories are located on their profile page. They are shown a smaller version of this and are able to click the link for a full view of a particular order.
-
-- ### Sorting and Searching the Site 
-
-USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
-- | - | - | - | - |
 9 | USER | Sort the list of products | By highest rated, price etc | Installed a filter located at the top of the products view. Users are able to organise by - Price, Category, Rating or Name
 10 | USER | Easily filter products by category | So I can find the best products in the category I wish to view | Made it so the category of each item is visible and clickable. Users can click on the category name and the products will be filtered to that specific one.
 11 | USER | Search for a product by name or description | So I can view a product I know the name of | Included a search bar that is located at the top of each page. Once users have entered a search term, the function will search all of the product info for the users query. The user is also shown the number of results and their search term, just incase they have made a typo, its easily seen. 
 12 | USER | Be presented with the results of what I have searched for | So I can see if the product I wish to purchase is available | All of the results that have been given from the search are listed on the page, the same way they are on the products page.
-
-- ### Shopping and Checking Out 
-
-USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
-- | - | - | - | - |
 13 | USER | Easily select the quantity and/or size of item | To ensure that I know what size/quantity I am buying | When looking at individual items, users have the option to chose how many units they want (1-90) and if the item has a size i.e. clothing, they can pick from a dropdown menu. They are also able to change the unit quantity while reviewing the bag before checkout. 
 14 | USER | View items that are in my bag | So I can see if I am missing anything | Each time an item is added they will be shown a small window with shopping bag contents and also users are able to click the shopping cart link to review products before payment and adjust if needed. 
 15 | USER | Adjust the item quantity in the bag | In case I feel the amount isnt right | As above
@@ -110,11 +95,6 @@ USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A D
 17 | USER | Have an option to save delivery info to profile | To make future checkouts faster | On the users profile page, they will be presented with a form for their delivery information to be filled out. Once the user updates and clicks save, they can go to the checkout an their info will be prefilled.
 18 | USER | view order confirmation after checkout | To ensure that everything has worked and I now sit back until delivery | Upon successful payment, the user will be shown a confirmation of their order as well as seeing a mesage displayed re email confirmation. 
 19 | USER | Feel like the store has a robust checkout process | Feel safe spending money online | Using [Stripes](https://stripe.com) elements, the user will be given a secure feeling as it is filled out and reacting as needed
-
-- ### Administration and Management
-
-USER STORY ID | AS A/AN... | I WANT TO BE ABLE TO... | SO THAT I CAN... | AS A DEVELOPER, I HAVE...
-- | - | - | - | - |
 20 | Administrator | Add a product | Keep the store up to date | Installed a button which is located within the account dropdown menu - The button will only be visible to superuser
 21 | Administrator | Edit a product | Keep the store up to date | Added an edit button next to items that is only visible to superusers
 22 | Administrator | Delete a product | Keep the store up to date | Added a delete button next to items that is only visible to superusers
@@ -282,52 +262,151 @@ Checkout - ' /checkout '
   - To ensure that the customer really is sure on what they are buying, there is an order summary containing everything the user will be purchasing
 
 ---
-## Tech Used 
+## Testing
+
+- Test 1 - User can add product to shopping cart - Test Passed 
+  - Step 1 - click shop now
+  - Step 2 - click any product
+  - Step 3 - click add to bag
+  - Step 4 - see success message
+  - Step 5 - click shopping cart icon 
+  - Step 6 - review item is in shopping bag
 
 
+- Test 2 - User can remove product from cart - Test Passed 
+  - Step 1 - click add to bag on a product
+  - Step 2 - click shopping cart icon 
+  - Step 3 - click x icon on product you wish to delete
+  - Step 4 - see info message - "item removed from bag"
+
+- Test 3 - Signing up for profile - Test Passed 
+  - Step 1 - click the account button
+  - Step 2 - fill in the required forms (The forms will not submit without the required forms filled correctly. Relevent error messages are displayed thanks for allauth)
+  - Step 3 - go to your email 
+  - Step 4 - open verification email
+  - Step 5 - follow link
+  - Step 6 - press confirm
+  - Step 7 - sign in with your chosen username and password
 
 
-.
+- Test 4 - Adding delivery info from checkout - Test Passed 
+  - Step 1 - from the shopping bag, click 'continue to secure checkout'
+  - Step 2 - add all details to form
+  - Step 3 - make sure that checkbox for saving info is checked (should happen automatically)
+  - Step 4 - using stripes test checkout number, proceed to checkout as planned
+  - Step 5 - once order is complete, navigate to My Profile
+  - Step 6 - Observe that delivery info is populated
 
-.
 
-.
+- Test 5 - Editing delivery info in profile app - Test Passed 
+  - Step 1 - While in My Profile, edit the delivery info
+  - Step 2 - click update information
+  - Step 3 - see success message
+  - Step 4 - add a product to the bag and proceed to the checkout and observe address change
 
-.
 
-.
+- Test 6 - Review previous orders - Test Passed 
+  - Step 1 - make sure you are logged in
+  - Step 2 - make an order
+  - Step 3 - click My Profile
+  - Step 4 - On the right hand side will be a list of previous orders
+  - Step 5 - click the order number
+  - Step 6 - review previous order
 
-.
 
-.
+- Test 7 - Signing in to profile - Test Passed 
+  - Step 1 - ensure you are logged out
+  - Step 2 - click Account button
+  - Step 3 - click log in 
+  - Step 4 - enter credentials
+  - Step 5 - click sign in
+  - Step 6 - be redirected to home page and see success message
 
-.
 
-.
+- Test 8 - Signing out to profile - Test Passed 
+  - Step 1 - Ensure you are logged in
+  - Step 2 - click Account button
+  - Step 3 - click logout
+  - Step 4 - click sign out
 
-.
 
-.
+- Test 9 - Getting a new password - Test Passed 
+  - Step 1 - While you are logged out, click Login
+  - Step 2 - click Forgot Password
+  - Step 3 - enter email address
+  - Step 4 - click reset my password
+  - Step 5 - check your email
+  - Step 6 - open email titled 'Password Reset Email'
+  - Step 7 - open the link
+  - Step 8 - enter new password
+  - Step 9 - click change password
+  - Step 10- Observe screen which says 'Your password has now been changed'
 
-.
+- Test 10 - Adding a news article - Test Passed 
+  - Step 1 - ensure you are logged in as a superuser
+  - Step 2 - click News in the navbar
+  - Step 3 - click Add Entry
+  - Step 4 - fill out required fields
+  - Step 5 - click Add News Article
+  - Step 6 - observe redirection to news page and new entry is at top
+  - Step 7 - observe info message stating that news has been added successfully 
 
-.
 
-.
+- Test 11 - Deleting a news article - Test Passed 
+  - Step 1 - ensure you are logged in as a superuser
+  - Step 2 - click News in the navbar
+  - Step 3 - click View All
+  - Step 4 - click delete on the entry you wish to discard
+  - Step 5 - observe that news article has been deleted
+  - Step 6 - observe info message stating that news has been deleted successfully
 
-.
 
-.
+- Test 12 - Editing a news article - Test Passed 
+  - Step 1 - ensure you are logged in as a superuser
+  - Step 2 - click News in the navbar
+  - Step 3 - click View All
+  - Step 4 - click edit on the entry you wish to change
+  - Step 5 - you will see the same form as adding but with the fields populated with the current contents
+  - Step 6 - make changes and click edit article
+  - Step 7 - be redirected to news page and see that blog has been changed and info message advising so
 
-.
 
-.
+- Test 13 - Sending email to superuser - Test Passed 
+  - Step 1 - click Contact Us on the navbar
+  - Step 2 - fill out required fields
+  - Step 3 - click send
+  - Step 4 - observe redirection to home page and message confirming tha temail was sent
 
+
+- Test 14 - Adding a product to the store - Test Passed 
+  - Step 1 - ensure you are logged in as a superuser
+  - Step 2 - click My Account
+  - Step 3 - click Add A Product 
+  - Step 4 - fill out required fields
+  - Step 5 - click add product button
+  - Step 6 - observe redirect to new product
+    - Step 7 - if product has sizes, show drop down
+    - Step 8 - if product has no image, show default image
+    - Step 9 - if product has no rating, show 'no rating'
+
+
+- Test 15 - Editing a product within the store - Test Passed 
+  - Step 1 - ensure you are logged in as a superuser
+  - Step 2 - you will be able to see the edit button on both the view for all products and the single product view
+  - Step 3 - once clicked, you will be shown the form with all the data prefilled out
+  - Step 4 - once you have made your changes click 'Update this Product'
+  - Step 5 - observe redirect to product detail page and see data edited
+  - Step 6 - observe info message saying update successful
+
+- Test 16 - Deleting a product from the store - Test Passed 
+  - Step 1 - ensure you are logged in as superuser
+  - Step 2 - you will be able to see the delete button on both the view for all products and the single product view
+  - Step 3 - when the button has been clicked, you will be redirected to the products page and see a success message
 
 
 
 ---
-## Testing
+## Tech Used 
 ---
 ## Deployment
 ---
