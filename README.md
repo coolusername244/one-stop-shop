@@ -423,6 +423,15 @@ Checkout - ' /checkout '
   - Step 2 - you will be able to see the delete button on both the view for all products and the single product view
   - Step 3 - when the button has been clicked, you will be redirected to the products page and see a success message
 
+- Test 17 - User can buy item from store - Test Passed 
+  - Step 1 - Ensure you are logged in
+  - Step 2 - Select item and place into shopping cart 
+  - Step 3 - Proceed to checkout 
+  - Step 4 - Fill out the card number using Stripes test card number (4242 4242 4242 4242)
+  - Step 5 - Click Complete Order 
+  - Step 6 - Observe message thanking user for order 
+  - Step 7 - Check email and observe order confirmation
+
 HTML Validator
 -
 
