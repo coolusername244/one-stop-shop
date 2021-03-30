@@ -13,7 +13,7 @@
         </div>
     </div>
 {% endblock %}
-
+<!-- Page has been split into sections and brought together by djangos 'include' templating-->
 {% block content %}
     <div class="container content-container shopping-page">
         <div class="row">
@@ -45,6 +45,7 @@
                                 {% include 'bag/shopping-bag-checkout-buttons.html' %}
                             </div>
                         </div>
+                        <!-- For Loop to iterate through bag items and display each the same way -->
                         {% for item in bag_items %}
                             <div class="row">
                                 <div class="col-12 pb-3">
@@ -70,7 +71,7 @@
                             </a>
                         </div>
                     </div>
-
+                <!-- This div gives you the results in a table on large devices -->
                     <div class="table-responsive rounded d-none d-md-block">
                         <table class="table table-sm table-boarderless">
                         <thead class="text-black text-center">
@@ -133,7 +134,7 @@
 
 {% block postloadjs %}
 {{ block.super }}
-
+<!-- Scroll back to top -->
 <script type="text/javascript">
     $('.btt-link').click(function(e) {
         window.scrollTo(0,0)
