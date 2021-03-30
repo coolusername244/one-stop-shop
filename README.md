@@ -583,7 +583,7 @@ Lighthouse
 
   - Code Institute played a vital role in the making of this page with the Boutique Ado videos 
 
-  - The inspiration from this site came from other online e-commerce stores such as Amazon
+  - The inspiration from this site came from other online e-commerce stores such as Amazon, New Look and Primark
 
   - The product and category fixtures were made by myself and info for the individual products can be found below. The resources have been taken for a purely educational purposes.
     - <details open>
@@ -771,3 +771,5 @@ Lighthouse
         https://www.amazon.com/Apple-16-MacBook-Pro-Z0XZ0007A/dp/B08374BBQG/ref=sr_1_14?dchild=1&keywords=Apple+MacBook+Pro+2020&qid=1617112526&sr=8-14	</p>	</li>
         </ul>
         </details>
+  - Also a big thank you to Code Institute, my mentor Gerry and my wife Maria. You have all guided me to something i never thought id be capable of this time last year.
+
