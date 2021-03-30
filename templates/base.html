@@ -1,4 +1,3 @@
-
 {% load static %}
 
 <!doctype html>
@@ -77,6 +76,7 @@
                         </div>
                     </a>
                     <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                        <!-- Part of site security -->
                         {% if request.user.is_authenticated %}
                             {% if request.user.is_superuser %}
                                 <a href="{% url 'add_a_product' %}" class="dropdown-item">Add A Product</a>
@@ -120,6 +120,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- Navbar split to seperate files to better maintain -->
             {% include 'includes/mobile-header.html' %}
             {% include 'includes/main-nav.html' %}
         </nav>
@@ -129,6 +130,8 @@
     <div class="message-container">
         {% for message in messages %}
             {% with message.level as level %}
+            <!-- Message levels credit to CI -->
+            <!-- These are in control of the messsage.success/info etc -->
                 {% if level == 40 %}
                     {% include 'includes/toasts/toast_error.html' %}
                 {% elif level == 30 %}
