@@ -1,3 +1,5 @@
+// Script to change default color on profile form - credit CI
+
 let countrySelected = $('#id_default_country').val();
 
 if(!countrySelected) {
