@@ -1,3 +1,5 @@
+<!-- This form is responsible for Updating the quantity of items in the Shopping Bag -->
+
 <form class="form update-form" method="POST" action="{% url 'modify_bag' item.item_id %}">
 {% csrf_token %}
     <div class="form-group">
