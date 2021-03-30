@@ -27,6 +27,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 offset-md-3 text-center">
+                <!-- The form will be prefilled with the info as it has the product.id tag -->
                 <form method="POST" action="{% url 'edit_a_product' product.id %}" class="form mb-4" enctype="multipart/form-data">
                     {% csrf_token %}
                     {% for field in form %}
