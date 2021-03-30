@@ -3,7 +3,7 @@ from products.models import Product
 
 
 def bag_contents(request):
-
+    # This function will work out bag contents and price
     bag_items = []
     total = 0
     product_count = 0
